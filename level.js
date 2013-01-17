@@ -11,9 +11,7 @@ function Level(){
 	for (var i = this.columns - 1; i >= 0; i--) {
 		var col_blocks = new Array();
 		for (var j = this.rows - 1; j >= 0; j--) {			
-			var events = new Object();
-			events.onClick = function(event){ alert("Block pos:"+event) };
-			var chain = new Chain("img/stoneblock.png",32,i,j,events);						
+			var chain = new Chain("img/stoneblock.png",32,i,j);						
 			col_blocks.push(chain);	
 		};		
 		this.blocks.push(col_blocks);	

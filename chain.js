@@ -1,31 +1,85 @@
+window.ChainTypeEnum = {
+    L : {code:"L"},
+    STRAIGHT : {code:"S"},
+    CROSS : {code:"C"},
+    T : {code:"T"},
+    BROKENCROSS : {code:"BC"},
+    BROKEN : {code:"B"},
+    DOUBLEL : {code:"DL"} 
+};
+
+window.OrientationEnum = {
+    UP : {name:"up",code:"U"},
+    RIGHT : {name:"right",code:"R"},
+    DOWN : {name:"down",code:"D"},
+    LEFT : {name:"left",code:"L"}
+};
+
 (function() {
  
-var Chain = function(imageOrUri,size,i,j,events) {
-  this.initialize(imageOrUri,size,i,j,events);
-}
-var p = Chain.prototype = new createjs.Container();
- 
-p.Container_initialize = p.initialize;
-p.initialize = function(imageOrUri,size,i,j,events) {	
-    this.Container_initialize();
-    
-    this.bmp = new createjs.Bitmap(imageOrUri);
+    var Chain = function(imageOrUri,size,i,j) {
+      this.initialize(imageOrUri,size,i,j);
+    }
+    var p = Chain.prototype = new createjs.Container();
+     
+    p.Container_initialize = p.initialize;
+    p.initialize = function(imageOrUri,size,i,j) {	
+        this.Container_initialize();
+        
+        this.line = i;
+        this.column = j;
 
-    this.bmp.image.width = this.bmp.image.height = size;
+        this.chain_type = ChainTypeEnum.STRAIGHT;
+        this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};        
+        this.is_connected = false;
 
-    this.regX = this.bmp.regX = this.bmp.image.width/2;
-    this.regY = this.bmp.regY = this.bmp.image.height/2;    
+        this.bmp = new createjs.Bitmap(imageOrUri);
 
-    this.bmp.x = this.bmp.y = 0;
+        this.bmp.image.width = this.bmp.image.height = size;
 
-    this.x = (15*(i+1))+ this.bmp.image.width*(i+1);
-	this.y = (15*(j+1)) + this.bmp.image.height*(j+1);							
-	this.onClick = events.onClick;
+        this.width = this.height = size;
+        this.regX = this.bmp.regX = this.bmp.image.width/2;
+        this.regY = this.bmp.regY = this.bmp.image.height/2;    
 
-	this.orientation = 1;
+        this.bmp.x = this.bmp.y = 0;
 
-	this.addChild(this.bmp);
-}
- 
-window.Chain = Chain;
+        this.x = (15*(this.line+1))+ this.bmp.image.width*(this.line+1);
+    	this.y = (15*(this.column+1)) + this.bmp.image.height*(this.column+1);
+
+    	this.addChild(this.bmp);
+    }
+
+    Chain.prototype.changeOrientationOnRotation = function() {
+        switch(this.chain_type){
+            case ChainTypeEnum.STRAIGHT:
+                if (this.bmp.rotation == 0 || this.bmp.rotation == 180){
+                    this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};                            
+                }
+                else if(this.bmp.rotation == 90 || this.bmp.rotation == 270){
+                    this.orientation = {input : OrientationEnum.LEFT, output : OrientationEnum.RIGHT};                            
+                }
+                break;
+            case ChainTypeEnum.L:
+                break;
+            case ChainTypeEnum.CROSS:
+                break;
+            case ChainTypeEnum.T:
+                break;
+            case ChainTypeEnum.BROKENCROSS:
+                break;
+            case ChainTypeEnum.BROKEN:
+                break;
+            case ChainTypeEnum.DOUBLEL:
+                break;                
+        }
+    };
+
+    p.onClick = function(event){
+        this.bmp.rotation = (this.bmp.rotation+90)%360;
+        this.changeOrientationOnRotation();
+        //TODO:Check is connected on Level.checkSurroundings(i,j)
+        stage.update();
+    }
+     
+    window.Chain = Chain;
 }());
