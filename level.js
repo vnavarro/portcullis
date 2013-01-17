@@ -12,6 +12,7 @@ function Level(){
 		var col_blocks = new Array();
 		for (var j = this.rows - 1; j >= 0; j--) {			
 			var chain = new Chain("img/stoneblock.png",32,i,j);						
+			chain.setAsConnector(0,9)
 			col_blocks.push(chain);	
 		};		
 		this.blocks.push(col_blocks);	

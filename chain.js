@@ -32,6 +32,7 @@ window.OrientationEnum = {
         this.chain_type = ChainTypeEnum.STRAIGHT;
         this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};        
         this.is_connected = false;
+        this.is_top_connector = this.is_bottom_connector = false;
 
         this.bmp = new createjs.Bitmap(imageOrUri);
 
@@ -43,11 +44,21 @@ window.OrientationEnum = {
 
         this.bmp.x = this.bmp.y = 0;
 
-        this.x = (15*(this.line+1))+ this.bmp.image.width*(this.line+1);
-    	this.y = (15*(this.column+1)) + this.bmp.image.height*(this.column+1);
+        this.x = (15*(this.column+1))+ this.bmp.image.width*(this.column+1);
+    	this.y = (15*(this.line+1)) + this.bmp.image.height*(this.line+1);
 
     	this.addChild(this.bmp);
     }
+
+    Chain.prototype.setAsConnector = function(line_min,line_max) {
+        if (this.line == line_min){
+            this.is_top_connector = true;
+            this.is_connected = true;
+        }
+        else if(this.line == line_max){
+            this.is_bottom_connector = true;
+        }
+    };
 
     Chain.prototype.changeOrientationOnRotation = function() {
         switch(this.chain_type){
@@ -75,6 +86,8 @@ window.OrientationEnum = {
     };
 
     p.onClick = function(event){
+        if (this.is_top_connector || this.is_bottom_connector) return;
+
         this.bmp.rotation = (this.bmp.rotation+90)%360;
         this.changeOrientationOnRotation();
         //TODO:Check is connected on Level.checkSurroundings(i,j)
