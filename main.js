@@ -18,7 +18,7 @@ function startGame() {
 	screen_width = canvas.width;
 	screen_height = canvas.height;
 	
-	var level = new Level();
+	var level = new Level(1);
 	level.addBoardOnStage(stage);
 	//loadMenu();
 

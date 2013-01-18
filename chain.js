@@ -1,11 +1,13 @@
 window.ChainTypeEnum = {
-    L : {code:"L"},
-    STRAIGHT : {code:"S"},
-    CROSS : {code:"C"},
-    T : {code:"T"},
-    BROKENCROSS : {code:"BC"},
-    BROKEN : {code:"B"},
-    DOUBLEL : {code:"DL"} 
+    L : {code:"L",image:"assets/stoneblock.png"},
+    STRAIGHT : {code:"S",image:"assets/stoneblock.png"},
+    CROSS : {code:"C",image:"assets/stoneblock.png"},
+    T : {code:"T",image:"assets/stoneblock.png"},
+    BROKENCROSS : {code:"BC",image:"assets/stoneblock.png"},
+    BROKEN : {code:"B",image:"assets/stoneblock.png"},
+    DOUBLEL : {code:"DL",image:"assets/stoneblock.png"},
+    SENDER : {code:"SE",image:"assets/stoneblock.png"},
+    RECEIVER : {code:"RE",image:"assets/stoneblock.png"}
 };
 
 window.OrientationEnum = {
@@ -17,24 +19,28 @@ window.OrientationEnum = {
 
 (function() {
  
-    var Chain = function(imageOrUri,size,i,j) {
-      this.initialize(imageOrUri,size,i,j);
+    var Chain = function(type_code,size,i,j) {
+      this.initialize(type_code,size,i,j);
     }
+
     var p = Chain.prototype = new createjs.Container();
      
     p.Container_initialize = p.initialize;
-    p.initialize = function(imageOrUri,size,i,j) {	
+    p.initialize = function(type_code,size,i,j) {	
         this.Container_initialize();
         
         this.line = i;
         this.column = j;
 
-        this.chain_type = ChainTypeEnum.STRAIGHT;
+        this.chain_type = this.getChainTypeFromCode(type_code);        
         this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};        
         this.is_connected = false;
         this.is_top_connector = this.is_bottom_connector = false;
+        this.setAsConnector();
 
-        this.bmp = new createjs.Bitmap(imageOrUri);
+        this.onClickDelegate = null;
+
+        this.bmp = new createjs.Bitmap(this.chain_type.image);
 
         this.bmp.image.width = this.bmp.image.height = size;
 
@@ -50,12 +56,35 @@ window.OrientationEnum = {
     	this.addChild(this.bmp);
     }
 
-    Chain.prototype.setAsConnector = function(line_min,line_max) {
-        if (this.line == line_min){
+    Chain.prototype.getChainTypeFromCode = function(type_code) {
+         switch(type_code){
+            case ChainTypeEnum.STRAIGHT.code:
+                return ChainTypeEnum.STRAIGHT;
+            case ChainTypeEnum.L.code:
+                return ChainTypeEnum.L;
+            case ChainTypeEnum.CROSS.code:
+                return ChainTypeEnum.CROSS;
+            case ChainTypeEnum.T.code:
+                return ChainTypeEnum.T;
+            case ChainTypeEnum.BROKENCROSS.code:
+                return ChainTypeEnum.BROKENCROSS;
+            case ChainTypeEnum.BROKEN.code:
+                return ChainTypeEnum.BROKEN;
+            case ChainTypeEnum.DOUBLEL.code:
+                return ChainTypeEnum.DOUBLEL;
+            case ChainTypeEnum.SENDER.code:
+                return ChainTypeEnum.SENDER;
+            case ChainTypeEnum.RECEIVER.code:
+                return ChainTypeEnum.RECEIVER;                                
+        }
+    };
+
+    Chain.prototype.setAsConnector = function() {
+        if (this.chain_type == ChainTypeEnum.SENDER){
             this.is_top_connector = true;
             this.is_connected = true;
         }
-        else if(this.line == line_max){
+        else if(this.chain_type == ChainTypeEnum.RECEIVER){
             this.is_bottom_connector = true;
         }
     };
@@ -90,7 +119,7 @@ window.OrientationEnum = {
 
         this.bmp.rotation = (this.bmp.rotation+90)%360;
         this.changeOrientationOnRotation();
-        //TODO:Check is connected on Level.checkSurroundings(i,j)
+        if(this.onClickDelegate) this.onClickDelegate(this);
         stage.update();
     }
      
