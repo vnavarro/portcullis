@@ -1,5 +1,6 @@
 var canvas;
 var stage;
+var level;
 var screen_width;
 var screen_height;
 var current_screen;
@@ -18,15 +19,20 @@ function startGame() {
 	screen_width = canvas.width;
 	screen_height = canvas.height;
 	
-	var level = new Level(1);
+	level = new Level(1);
 	level.addBoardOnStage(stage);
 	//loadMenu();
 
 	// we want to do some work before we update the canvas,
 	// otherwise we could use Ticker.addListener(stage);
-	// createjs.Ticker.addListener(window);
-	// createjs.Ticker.useRAF = true;
-	// createjs.Ticker.setFPS(60);
+	createjs.Ticker.addListener(window);
+	createjs.Ticker.useRAF = true;
+	createjs.Ticker.setFPS(60);
+}
+
+function tick(){
+	level.update();
+
 	stage.update();
 }
 

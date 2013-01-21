@@ -33,9 +33,8 @@ window.OrientationEnum = {
         this.column = j;
 
         this.chain_type = this.getChainTypeFromCode(type_code);        
-        this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};        
+        this.orientation = {input : [OrientationEnum.UP], output : [OrientationEnum.DOWN]};        
         this.is_connected = false;
-        this.is_top_connector = this.is_bottom_connector = false;
         this.setAsConnector();
 
         this.onClickDelegate = null;
@@ -79,24 +78,46 @@ window.OrientationEnum = {
         }
     };
 
+    Chain.prototype.isConnector = function(){
+        return this.chain_type == ChainTypeEnum.SENDER ||
+         this.chain_type == ChainTypeEnum.RECEIVER;
+    };
+
+    Chain.prototype.changeConnected = function(connected){
+        this.is_connected = connected;
+    }
+
     Chain.prototype.setAsConnector = function() {
         if (this.chain_type == ChainTypeEnum.SENDER){
-            this.is_top_connector = true;
             this.is_connected = true;
         }
         else if(this.chain_type == ChainTypeEnum.RECEIVER){
-            this.is_bottom_connector = true;
+            this.is_connected = false;
         }
+    };
+
+    Chain.prototype.hasConnector = function(fromDirection) {
+        return this.orientation.input.indexOf(fromDirection) != -1;
+    };
+
+    Chain.prototype.getOtherEnds = function(fromDirection) {
+        var other_connections = [];
+        for (var i = 0; i < this.orientation.output.length; i++) {
+            if(this.orientation.output[i] != fromDirection){
+                other_connections.push(this.orientation.output[i]);
+            }
+        };
+        return other_connections;
     };
 
     Chain.prototype.changeOrientationOnRotation = function() {
         switch(this.chain_type){
             case ChainTypeEnum.STRAIGHT:
                 if (this.bmp.rotation == 0 || this.bmp.rotation == 180){
-                    this.orientation = {input : OrientationEnum.UP, output : OrientationEnum.DOWN};                            
+                    this.orientation = {input : [OrientationEnum.UP], output : [OrientationEnum.DOWN]};                            
                 }
                 else if(this.bmp.rotation == 90 || this.bmp.rotation == 270){
-                    this.orientation = {input : OrientationEnum.LEFT, output : OrientationEnum.RIGHT};                            
+                    this.orientation = {input : [OrientationEnum.LEFT], output : [OrientationEnum.RIGHT]};                            
                 }
                 break;
             case ChainTypeEnum.L:
@@ -115,7 +136,7 @@ window.OrientationEnum = {
     };
 
     p.onClick = function(event){
-        if (this.is_top_connector || this.is_bottom_connector) return;
+        if (this.isConnector()) return;
 
         this.bmp.rotation = (this.bmp.rotation+90)%360;
         this.changeOrientationOnRotation();
