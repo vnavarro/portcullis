@@ -1,13 +1,13 @@
 window.ChainTypeEnum = {
-    L : {code:"L",image:"assets/stoneblock.png"},
-    STRAIGHT : {code:"S",image:"assets/stoneblock.png"},
+    L : {code:"L",image:"assets/ele.png"},
+    STRAIGHT : {code:"S",image:"assets/reto.png"},
     CROSS : {code:"C",image:"assets/stoneblock.png"},
     T : {code:"T",image:"assets/stoneblock.png"},
     BROKENCROSS : {code:"BC",image:"assets/stoneblock.png"},
-    BROKEN : {code:"B",image:"assets/stoneblock.png"},
+    BROKEN : {code:"B",image:"assets/broken.png"},
     DOUBLEL : {code:"DL",image:"assets/stoneblock.png"},
-    SENDER : {code:"SE",image:"assets/stoneblock.png"},
-    RECEIVER : {code:"RE",image:"assets/stoneblock.png"}
+    SENDER : {code:"SE",image:"assets/sender.png"},
+    RECEIVER : {code:"RE",image:"assets/receiver.png"}
 };
 
 window.OrientationEnum = {
@@ -19,21 +19,21 @@ window.OrientationEnum = {
 
 (function() {
  
-    var Chain = function(type_code,size,i,j) {
-      this.initialize(type_code,size,i,j);
+    var Chain = function(chain_data,size,i,j) {
+      this.initialize(chain_data,size,i,j);
     }
 
     var p = Chain.prototype = new createjs.Container();
      
     p.Container_initialize = p.initialize;
-    p.initialize = function(type_code,size,i,j) {	
+    p.initialize = function(chain_data,size,i,j) {	
         this.Container_initialize();
         
         this.line = i;
         this.column = j;
 
-        this.chain_type = this.getChainTypeFromCode(type_code);        
-        this.orientation = {input : [OrientationEnum.UP], output : [OrientationEnum.DOWN]};        
+        this.chain_type = this.getChainTypeFromCode(chain_data.ct);        
+        //this.orientation = {input : [OrientationEnum.UP], output : [OrientationEnum.DOWN]};        
         this.is_connected = false;
         this.setAsConnector();
 
@@ -51,6 +51,9 @@ window.OrientationEnum = {
 
         this.x = (15*(this.column+1))+ this.bmp.image.width*(this.column+1);
     	this.y = (15*(this.line+1)) + this.bmp.image.height*(this.line+1);
+
+        this.bmp.rotation = chain_data.r;
+        this.changeOrientationOnRotation();
 
     	this.addChild(this.bmp);
     }
@@ -84,6 +87,7 @@ window.OrientationEnum = {
     };
 
     Chain.prototype.changeConnected = function(connected){
+        if (this.isConnector()) return;
         this.is_connected = connected;
     }
 
@@ -97,16 +101,45 @@ window.OrientationEnum = {
     };
 
     Chain.prototype.hasConnector = function(fromDirection) {
-        return this.orientation.input.indexOf(fromDirection) != -1;
+        switch(fromDirection){
+            case OrientationEnum.DOWN:
+                return this.orientation.input.indexOf(OrientationEnum.UP) != -1 || 
+                    this.orientation.output.indexOf(OrientationEnum.UP) != -1
+            case OrientationEnum.RIGHT:
+                return this.orientation.input.indexOf(OrientationEnum.LEFT) != -1 || 
+                        (this.orientation.output.indexOf(OrientationEnum.LEFT) != -1 && this.bmp.rotation == 270);
+            case OrientationEnum.LEFT:
+                return this.orientation.input.indexOf(OrientationEnum.RIGHT) != -1 || 
+                        (this.orientation.output.indexOf(OrientationEnum.RIGHT) != -1 && this.bmp.rotation == 0);
+            case OrientationEnum.UP:
+                return this.orientation.input.indexOf(OrientationEnum.DOWN) != -1 || 
+                        this.orientation.output.indexOf(OrientationEnum.DOWN) != -1;
+        }         
     };
 
+    Chain.prototype.getOpposeDirection = function(direction){
+        if (direction == OrientationEnum.DOWN) return OrientationEnum.UP;
+        if (direction == OrientationEnum.UP) return OrientationEnum.DOWN;
+        if (direction == OrientationEnum.RIGHT) return OrientationEnum.LEFT;
+        if (direction == OrientationEnum.LEFT) return OrientationEnum.RIGHT;
+    }
+
     Chain.prototype.getOtherEnds = function(fromDirection) {
+        var opposeDirection = this.getOpposeDirection(fromDirection);
+
         var other_connections = [];
         for (var i = 0; i < this.orientation.output.length; i++) {
-            if(this.orientation.output[i] != fromDirection){
+            if(this.orientation.output[i] != opposeDirection){
                 other_connections.push(this.orientation.output[i]);
             }
         };
+        
+        for (var i = 0; i < this.orientation.input.length; i++) {
+            if(this.orientation.input[i] != opposeDirection){
+                other_connections.push(this.orientation.input[i]);
+            }
+        };
+
         return other_connections;
     };
 
@@ -121,14 +154,27 @@ window.OrientationEnum = {
                 }
                 break;
             case ChainTypeEnum.L:
+                if (this.bmp.rotation == 0){
+                    this.orientation = {input : [OrientationEnum.UP], output : [OrientationEnum.RIGHT]};
+                }
+                else if(this.bmp.rotation == 90){
+                    this.orientation = {input : [OrientationEnum.RIGHT],output : [OrientationEnum.DOWN]};
+                }
+                else if(this.bmp.rotation == 180){
+                    this.orientation = {input : [OrientationEnum.LEFT],output : [OrientationEnum.DOWN]};
+                }
+                else if(this.bmp.rotation == 270){
+                    this.orientation = {input : [OrientationEnum.UP],output : [OrientationEnum.LEFT]};
+                }
                 break;
             case ChainTypeEnum.CROSS:
                 break;
             case ChainTypeEnum.T:
                 break;
-            case ChainTypeEnum.BROKENCROSS:
+            case ChainTypeEnum.BROKENCROSS:                
                 break;
             case ChainTypeEnum.BROKEN:
+                this.orientation = {input:[],output:[]};
                 break;
             case ChainTypeEnum.DOUBLEL:
                 break;                
