@@ -1,6 +1,6 @@
 window.ChainTypeEnum = {
-    L : {code:"L",image:"assets/chainl.png"},
-    STRAIGHT : {code:"S",image:"assets/chain.png"},
+    L : {code:"L",image:"assets/chain_b.png"},
+    STRAIGHT : {code:"S",image:"assets/chain_a.png"},
     CROSS : {code:"C",image:"assets/stoneblock.png"},
     T : {code:"T",image:"assets/stoneblock.png"},
     BROKENCROSS : {code:"BC",image:"assets/stoneblock.png"},
@@ -49,8 +49,8 @@ window.OrientationEnum = {
 
         this.bmp.x = this.bmp.y = 0;
 
-        this.x = 100+(15*(this.column+1))+ this.bmp.image.width*(this.column+1);
-    	this.y = 100+(15*(this.line+1)) + this.bmp.image.height*(this.line+1);
+        this.x = 100+(5*(this.column+1))+ this.bmp.image.width*(this.column+1);
+    	this.y = 100+(5*(this.line+1)) + this.bmp.image.height*(this.line+1);
 
         this.bmp.rotation = chain_data.r;
         this.changeOrientationOnRotation();
