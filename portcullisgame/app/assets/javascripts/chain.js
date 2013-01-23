@@ -49,8 +49,8 @@ window.OrientationEnum = {
 
         this.bmp.x = this.bmp.y = 0;
 
-        this.x = (15*(this.column+1))+ this.bmp.image.width*(this.column+1);
-    	this.y = (15*(this.line+1)) + this.bmp.image.height*(this.line+1);
+        this.x = 100+(15*(this.column+1))+ this.bmp.image.width*(this.column+1);
+    	this.y = 100+(15*(this.line+1)) + this.bmp.image.height*(this.line+1);
 
         this.bmp.rotation = chain_data.r;
         this.changeOrientationOnRotation();

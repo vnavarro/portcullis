@@ -31,12 +31,8 @@ function startGame() {
 }
 
 function tick(){
-	/*for (var i = 0; i < stage.children.length; i++) {
-		stage.children[i].changeConnected(false);
-	};*/
-
-	//level.update();
-
+	
+	level.update();
 	stage.update();
 }
 

@@ -1,20 +1,37 @@
+window.GameStatesEnum = {
+	LOADING:0,
+	ENDED:1,
+	PREPLAYING:2,
+    PLAYING:3,
+    PAUSED:4
+};
+
 function Level(level_id){
-	this.time_limit = 10;
-	this.chains_needed = 2;
-	this.chains_completed = 0;
-	this.receivers = [];
 	this.level_id = level_id;
+	
+	var game_data = this.getLevelFromData();
+
+	this.chains_needed = game_data.chains;
+	this.chains_completed = 0;
+
+	this.receivers = [];	
+
+	this.time_limit = game_data.tlimit;
+	this.time_consumed = 0;
+	this.time_since_last_update = 0;
+
+	this.current_game_state = GameStatesEnum.LOADING;
 
 	this.blocks = new Array();	
 
-	var map = this.getLevelFromData();
+	var map = game_data.map;
 	this.columns = map[0].length;
 	this.rows = map.length;	
 
 	for (var i = 0; i < this.rows; i++) {
 		var col_blocks = new Array();
 		for (var j = 0; j < this.columns; j++) {			
-			var chain = new Chain(map[i][j],64,i,j);						
+			var chain = new Chain(map[i][j],32,i,j);						
 			chain.onClickDelegate = this.chainClickDelegate;
 			chain.parent_level = this;
 			col_blocks.push(chain);	
@@ -22,13 +39,15 @@ function Level(level_id){
 		this.blocks.push(col_blocks);	
 	};	
 
-	this.update();
+	this.clock = new createjs.Text("Time:0");
+
+	this.updateConnections();
 }
 
 Level.prototype.getLevelFromData = function() {
 	for (var i = game_data.length - 1; i >= 0; i--) {
 		if (game_data[i].code == this.level_id){
-			return game_data[i].map;
+			return game_data[i];
 		}
 	};
 };
@@ -39,6 +58,8 @@ Level.prototype.addBoardOnStage = function(stage) {
 			stage.addChild(this.blocks[i][j]);		
 		};
 	};		
+	this.current_game_state = GameStatesEnum.PLAYING;
+	stage.addChild(this.clock);
 };
 
 Level.prototype.chainClickDelegate = function(chain) {
@@ -48,13 +69,13 @@ Level.prototype.chainClickDelegate = function(chain) {
 			this.parent_level.blocks[i][j].changeConnected(false);
 		};
 	};
-	this.parent_level.update();
+	this.parent_level.updateConnections();
 	if(this.parent_level.isLevelCompleted()){
 		alert("Winner!");
 	}
 };
 
-Level.prototype.update = function() {
+Level.prototype.updateConnections = function() {
     for (var y = 0; y < this.columns; y++)
 	{	    
     	this.checkChainConnections(1,y,OrientationEnum.DOWN);
@@ -101,4 +122,20 @@ Level.prototype.isLevelCompleted = function(){
 	}
 }
 
-//https://dl.dropbox.com/u/14137502/Portcullis/main.html
+Level.prototype.update = function(){
+	if(this.current_game_state != GameStatesEnum.PLAYING) return;
+	
+	this.time_since_last_update += createjs.Ticker.getTime(false)/1000;
+
+	if (this.time_since_last_update >= this.time_limit/60)
+	{
+	    this.time_consumed++;
+	    this.time_since_last_update -= this.time_limit/60;
+	}
+	if (this.time_consumed >= this.time_limit*(createjs.Ticker.getFPS()))
+	{
+		this.current_game_state = GameStatesEnum.ENDED;		
+	    this.time_consumed = 0;
+	}
+	else this.clock.text = "Text:"+Math.floor(this.time_consumed/60);
+};
