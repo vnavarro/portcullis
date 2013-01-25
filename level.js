@@ -69,10 +69,7 @@ Level.prototype.chainClickDelegate = function(chain) {
 			this.parent_level.blocks[i][j].changeConnected(false);
 		};
 	};
-	this.parent_level.updateConnections();
-	if(this.parent_level.isLevelCompleted()){
-		alert("Winner!");
-	}
+	//this.parent_level.updateConnections();	
 };
 
 Level.prototype.updateConnections = function() {
@@ -124,6 +121,11 @@ Level.prototype.isLevelCompleted = function(){
 
 Level.prototype.update = function(){
 	if(this.current_game_state != GameStatesEnum.PLAYING) return;
+
+	this.updateConnections();
+	if(this.isLevelCompleted()){
+		this.current_game_state = GameStatesEnum.ENDED;
+	}
 	
 	this.time_since_last_update += createjs.Ticker.getTime(false)/1000;
 

@@ -1,13 +1,13 @@
 window.ChainTypeEnum = {
-    L : {code:"L",image:"assets/chain_b.png"},
-    STRAIGHT : {code:"S",image:"assets/chain_a.png"},
-    CROSS : {code:"C",image:"assets/stoneblock.png"},
-    T : {code:"T",image:"assets/stoneblock.png"},
-    BROKENCROSS : {code:"BC",image:"assets/stoneblock.png"},
-    BROKEN : {code:"B",image:"assets/broken.png"},
-    DOUBLEL : {code:"DL",image:"assets/stoneblock.png"},
-    SENDER : {code:"SE",image:"assets/sender.png"},
-    RECEIVER : {code:"RE",image:"assets/receiver.png"}
+    L : {code:"L",image:"assets/chain_b.png",image_on:"assets/chain_b_on.png"},
+    STRAIGHT : {code:"S",image:"assets/chain_a.png",image_on:"assets/chain_a_on.png"},
+    CROSS : {code:"C",image:"assets/stoneblock.png",image_on:""},
+    T : {code:"T",image:"assets/stoneblock.png",image_on:""},
+    BROKENCROSS : {code:"BC",image:"assets/stoneblock.png",image_on:""},
+    BROKEN : {code:"B",image:"assets/chain_d.png",image_on:""},
+    DOUBLEL : {code:"DL",image:"assets/stoneblock.png",image_on:""},
+    SENDER : {code:"SE",image:"assets/chain_c.png",image_on:"assets/chain_c_on.png"},
+    RECEIVER : {code:"RE",image:"assets/chain_c.png",image_on:"assets/chain_c_on.png"}
 };
 
 window.OrientationEnum = {
@@ -173,7 +173,7 @@ window.OrientationEnum = {
                 break;
             case ChainTypeEnum.BROKENCROSS:                
                 break;
-            case ChainTypeEnum.BROKEN:
+            default:
                 this.orientation = {input:[],output:[]};
                 break;
             case ChainTypeEnum.DOUBLEL:
@@ -182,7 +182,7 @@ window.OrientationEnum = {
     };
 
     p.onClick = function(event){
-        if (this.isConnector()) return;
+        if (this.isConnector() || this.parent_level.current_game_state != GameStatesEnum.PLAYING) return;
 
         this.bmp.rotation = (this.bmp.rotation+90)%360;
         this.changeOrientationOnRotation();

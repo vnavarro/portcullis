@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="chain_c.png"
+   inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/chain_b.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="6.765625"
+     inkscape:cx="16"
+     inkscape:cy="16.253456"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="930"
+     inkscape:window-height="651"
+     inkscape:window-x="176"
+     inkscape:window-y="93"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1020.3622)">
+    <path
+       style="fill:#374548;fill-opacity:1;stroke:none"
+       d="M 9.90625 -0.0625 C 9.8291274 0.4183032 9.78125 0.92460819 9.78125 1.4375 C 9.78125 5.2602 12.02673 8.34375 14.8125 8.34375 C 17.598271 8.34375 19.875 5.2602 19.875 1.4375 C 19.875 0.92460819 19.795873 0.4183032 19.71875 -0.0625 L 18.34375 -0.0625 C 18.449053 0.41180868 18.53125 0.91567743 18.53125 1.4375 C 18.53125 4.2558 16.866243 6.53125 14.8125 6.53125 C 12.758758 6.53125 11.09375 4.2558 11.09375 1.4375 C 11.09375 0.91567743 11.142958 0.41180868 11.25 -0.0625 L 9.90625 -0.0625 z "
+       transform="translate(0,1020.3622)"
+       id="path3009" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3014"
+       d="m 15.994995,1024.4519 c -2.78577,0 -5.044226,3.0897 -5.044226,6.9126 0,3.8227 2.258456,6.9125 5.044226,6.9125 2.785771,0 5.044225,-3.0898 5.044225,-6.9125 0,-3.8229 -2.258454,-6.9126 -5.044225,-6.9126 z m 0,1.806 c 2.053743,0 3.705327,2.2882 3.705327,5.1066 0,2.8182 -1.651584,5.1065 -3.705327,5.1065 -2.053743,0 -3.736462,-2.2883 -3.736462,-5.1065 0,-2.8184 1.682719,-5.1066 3.736462,-5.1066 z"
+       style="fill:#374548;fill-opacity:1;stroke:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3016"
+       d="m 13.786471,1038.0828 c -0.168358,2.7807 2.779305,5.2217 6.595017,5.4527 3.815912,0.2311 7.036455,-1.8365 7.204813,-4.6172 0.168358,-2.7807 -2.779205,-5.2217 -6.595117,-5.4528 -3.815713,-0.231 -7.036355,1.8366 -7.204713,4.6173 z m 1.802699,0.1091 c 0.124118,-2.05 2.508049,-3.5602 5.321097,-3.3899 2.813249,0.1703 4.997453,1.9572 4.873335,4.0071 -0.124118,2.05 -2.509831,3.5914 -5.323079,3.4211 -2.813049,-0.1704 -4.995471,-1.9883 -4.871353,-4.0383 z"
+       style="fill:#374548;fill-opacity:1;stroke:none"
+       inkscape:transform-center-x="-5.6214478"
+       inkscape:transform-center-y="-0.84642241" />
+    <path
+       style="fill:#374548;fill-opacity:1;stroke:none"
+       d="M 29.90625 12.5 C 26.407742 12.546998 23.564086 14.518094 23.40625 17.125 C 23.237892 19.9057 26.184287 22.3315 30 22.5625 C 30.715483 22.605831 31.405079 22.576594 32.0625 22.46875 L 32.0625 21.09375 C 31.449355 21.241205 30.786006 21.323156 30.09375 21.28125 C 27.280602 21.11095 25.094632 19.26875 25.21875 17.21875 C 25.342868 15.16875 27.718101 13.67345 30.53125 13.84375 C 31.071101 13.87643 31.580849 13.982825 32.0625 14.125 L 32.0625 12.6875 C 31.598666 12.586056 31.123484 12.530189 30.625 12.5 C 30.386518 12.485563 30.139484 12.496867 29.90625 12.5 z "
+       transform="translate(0,1020.3622)"
+       id="path3018" />
+  </g>
+</svg>
