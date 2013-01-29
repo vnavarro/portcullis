@@ -1,6 +1,7 @@
 var canvas;
 var stage;
 var level;
+var stage_screen;
 var screen_width;
 var screen_height;
 var current_screen;
@@ -19,9 +20,9 @@ function startGame() {
 	screen_width = canvas.width;
 	screen_height = canvas.height;
 	
-	level = new Level(1);
-	level.addBoardOnStage(stage);
-	//loadMenu();
+	//level = new Level(1);
+	//level.addBoardOnStage(stage);
+	loadMenu();
 
 	// we want to do some work before we update the canvas,
 	// otherwise we could use Ticker.addListener(stage);
@@ -31,12 +32,32 @@ function startGame() {
 }
 
 function tick(){
-	
-	level.update();
+
+	if(stage_screen.update)stage_screen.update();
 	stage.update();
 }
 
+function unloadCurrentScreen(){
+	stage_screen.unload();
+	stage.removeAllChildren();
+}
+
 function loadMenu(){
-	//var menu = Menu.new();
-	current_screen = "MENU";
+	var on_play = function(){
+		unloadCurrentScreen();
+		loadLevelSelection();		
+	};
+	stage_screen  = new MainMenu(on_play);
+	stage.addChild(stage_screen);
+}
+
+function loadLevelSelection(){	
+	stage_screen = new LevelSelection();
+	stage.addChild(stage_screen);
+}
+
+function loadLevel(level_code){
+	unloadCurrentScreen();
+	stage_screen = new Level(level_code);
+	stage_screen.addBoardOnStage(stage);
 }

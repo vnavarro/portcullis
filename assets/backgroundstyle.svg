@@ -1,0 +1,2653 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="600"
+   height="480"
+   id="svg3029"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="backgroundstyle.svg"
+   inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/backgroundstyle.png"
+   inkscape:export-xdpi="83.080002"
+   inkscape:export-ydpi="83.080002">
+  <defs
+     id="defs3031" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.8895687"
+     inkscape:cx="240.93584"
+     inkscape:cy="256.70288"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer4"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1235"
+     inkscape:window-height="756"
+     inkscape:window-x="45"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3034">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-572.36218)"
+     style="display:inline"
+     sodipodi:insensitive="true">
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3041"
+       width="343.28494"
+       height="35.148964"
+       x="72.52829"
+       y="722.18518"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       d="m 72.72795,682.85102 0,74.46875 90.3125,0 0,-74.46875 -18.84375,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -19.03125,0 z"
+       id="rect3037"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       d="m 325.5092,682.85102 0,74.46875 90.3125,0 0,-74.46875 -19.625,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -18.25,0 z"
+       id="rect3039"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       d="m 91.076598,740.53645 40.000002,0 40,0 0,133.58062 0,133.58063 -40,0 -40.000002,0 c 0,0 5.999996,-69.3917 5.999996,-133.58063 0,-64.18893 -5.999996,-133.58062 -5.999996,-133.58062 z"
+       id="rect3043"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccczc"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       d="m 318.94142,740.53645 40,0 40,0 c 0,0 -8,71.96841 -8,133.58062 0,61.61222 8,133.58063 8,133.58063 l -40,0 -40,0 0,-133.58063 z"
+       id="rect3045"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccczccccc"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       d="m 164.91206,749.56977 0,65.75 c 0,0 32.85426,-51.34375 77.2539,-51.34375 44.39965,0 77.28413,51.34375 77.28413,51.34375 l 0,-65.75 -154.53803,0 z"
+       id="rect3058"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3078"
+       width="9.1756268"
+       height="255.60677"
+       x="177.16646"
+       y="752.80969"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="752.80969"
+       x="195.16646"
+       height="255.60677"
+       width="9.1756268"
+       id="rect3080"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3082"
+       width="9.1756268"
+       height="255.60677"
+       x="213.16646"
+       y="752.80969"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="752.80969"
+       x="231.16646"
+       height="255.60677"
+       width="9.1756268"
+       id="rect3084"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3086"
+       width="9.1756268"
+       height="255.60677"
+       x="249.16646"
+       y="752.80969"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="752.80969"
+       x="269.16647"
+       height="255.60677"
+       width="9.1756268"
+       id="rect3088"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3090"
+       width="9.1756268"
+       height="255.60677"
+       x="287.1665"
+       y="752.80969"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="752.80969"
+       x="303.1665"
+       height="255.60677"
+       width="9.1756268"
+       id="rect3092"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="-310.13937"
+       x="982.20044"
+       height="132.3912"
+       width="9.1756268"
+       id="rect3094"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3096"
+       width="9.1756268"
+       height="132.3912"
+       x="958.20044"
+       y="-310.13937"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3098"
+       width="9.1756268"
+       height="132.3912"
+       x="932.20044"
+       y="-310.13937"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="-310.13937"
+       x="908.20044"
+       height="132.3912"
+       width="9.1756268"
+       id="rect3100"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="-310.13937"
+       x="880.20044"
+       height="132.3912"
+       width="9.1756268"
+       id="rect3102"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3104"
+       width="9.1756268"
+       height="132.3912"
+       x="856.20044"
+       y="-310.13937"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       transform="matrix(0,1,-1,0,0,0)"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       id="rect3106"
+       width="9.1756268"
+       height="132.3912"
+       x="828.20044"
+       y="-310.13937"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="-310.13937"
+       x="804.20044"
+       height="132.3912"
+       width="9.1756268"
+       id="rect3108"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       y="-310.13937"
+       x="780.20044"
+       height="132.3912"
+       width="9.1756268"
+       id="rect3110"
+       style="fill:#c8b7b7;fill-opacity:1;stroke:none"
+       transform="matrix(0,1,-1,0,0,0)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#c8beb7;fill-opacity:1;stroke:none"
+       id="path3114"
+       sodipodi:cx="230.70149"
+       sodipodi:cy="413.80441"
+       sodipodi:rx="186.13416"
+       sodipodi:ry="11.141833"
+       d="m 416.83565,413.80441 a 186.13416,11.141833 0 1 1 -372.268313,0 186.13416,11.141833 0 1 1 372.268313,0 z"
+       transform="translate(13.04045,597.13227)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <text
+       xml:space="preserve"
+       style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Luxi Sans;-inkscape-font-specification:Luxi Sans"
+       x="19.662058"
+       y="55.299538"
+       id="text3117"
+       sodipodi:linespacing="125%"
+       transform="translate(0,572.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan3119"
+         x="19.662058"
+         y="55.299538" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="101.71004"
+       y="631.24695"
+       id="text3238"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3240"
+         x="101.71004"
+         y="631.24695">Remaining Time: 59</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       y="141.63539"
+       x="469.36298"
+       height="96.35688"
+       width="96.35688"
+       id="rect3250"
+       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       ry="15.167286"
+       rx="15.167286"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#c8beb7;fill-opacity:1;stroke:none"
+       id="rect3246"
+       width="83.630501"
+       height="83.630501"
+       x="475.72617"
+       y="147.99858"
+       ry="16.059479"
+       rx="16.059479"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <path
+       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       d="m 492.55496,163.49149 c 0,0 2.61073,7.80215 7.36253,15.48858 4.75178,7.68643 9.29578,14.38662 9.29578,14.38662 l 4.6127,-7.686 c 15.79114,1.89513 15.19284,13.01614 13.90177,17.41652 -1.47302,5.02047 -4.44569,12.8601 -14.27797,21.69001 0,0 16.80829,-10.17758 22.48222,-19.03382 9.14361,-14.27191 2.46084,-28.84031 -12.9387,-35.35259 l 4.0402,-6.74823 c 0,0 -6.62395,-1.99955 -15.53623,-2.34253 -8.91227,-0.34299 -18.9423,2.18144 -18.9423,2.18144 z"
+       id="path3252"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       ry="15.167286"
+       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       id="rect4031"
+       width="96.35688"
+       height="96.35688"
+       x="468.74384"
+       y="266.70361"
+       rx="15.167286"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       ry="16.059479"
+       y="273.0668"
+       x="475.10703"
+       height="83.630501"
+       width="83.630501"
+       id="rect4033"
+       style="fill:#c8beb7;fill-opacity:1;stroke:none"
+       rx="16.059479"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       id="rect4035"
+       width="19.812788"
+       height="59.438362"
+       x="492.98563"
+       y="285.16284"
+       rx="16.059479"
+       ry="8.6680946"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       ry="9.2872438"
+       rx="16.059479"
+       y="285.16284"
+       x="522.08569"
+       height="59.438362"
+       width="19.812788"
+       id="rect4037"
+       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="15.167286"
+       ry="15.167286"
+       style="fill:#806600;fill-opacity:1;stroke:none;display:inline"
+       id="rect4040"
+       width="599.10638"
+       height="478.99268"
+       x="1.2858951"
+       y="2.3260632" />
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="16.059479"
+       ry="16.059479"
+       y="19.151867"
+       x="17.619562"
+       height="445.341"
+       width="566.4386"
+       id="rect4042"
+       style="fill:#fff6d5;fill-opacity:1;stroke:none;display:inline" />
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="130.58755"
+       y="73.837852"
+       id="text4049"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4051"
+         x="130.58755"
+         y="73.837852">You opened the gates!</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="111.44694"
+       y="127.08472"
+       id="text4053"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4055"
+         x="111.44694"
+         y="127.08472">The treasures are yours!</tspan></text>
+    <g
+       id="g4505"
+       transform="translate(-123.57622,-17.044996)">
+      <rect
+         style="fill:#552200;fill-opacity:1;stroke:none"
+         id="rect4059"
+         width="201.84277"
+         height="82.966049"
+         x="222.66609"
+         y="231.19266" />
+      <path
+         sodipodi:nodetypes="ccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4063"
+         d="m 172.17229,269.72049 23.09395,-18.43211 28.91461,-20.37234 0,60.7851 0,60.78511 -26.00428,0 -26.00428,0 0,-60.78511 z"
+         style="fill:#552200;fill-opacity:1;stroke:none" />
+      <g
+         transform="translate(-21.005309,-20.047066)"
+         id="g4377">
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,308.62472,132.11195)"
+           id="g4371">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4373"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4375"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4144"
+           transform="matrix(0.45380134,-0.14902795,0.14902795,0.45380134,119.6089,121.58842)">
+          <path
+             style="fill:#87de87;fill-opacity:1;stroke:none"
+             d="m 110.29803,332.04284 -19.515105,19.3125 0,0.21875 0.1875,0 16.250005,17.5 16.46875,17.71875 16.09374,-17.84375 15.625,-17.375 0.28125,0 0,-0.28125 0.15625,-0.1875 -0.15625,0 -19.5151,-19.0625 z"
+             id="path4138"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccc" />
+          <path
+             style="fill:#d7f4d7;fill-opacity:1;stroke:none"
+             d="m 112.35156,334.16014 -4.40948,4.36425 22.68055,0 17.20828,16.82386 0.13567,0 -0.13567,0.18091 0,0.24873 -0.24874,0 -13.79377,15.33143 -9.94958,11.01239 0.33919,0.3618 14.20078,-15.76106 13.79377,-15.33142 0.24874,0 0,-0.24874 0.13568,-0.15829 -0.13568,0 -17.2309,-16.82386 -22.83884,0 z"
+             id="path4140"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4132"
+           transform="matrix(0.45906901,0,0,0.45906901,183.20202,145.67117)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4112"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4116"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45071287,0.15812303,-0.15812303,0.45071287,390.03179,156.56704)"
+           id="g4161">
+          <path
+             style="fill:#afdde9;fill-opacity:1;stroke:none"
+             d="M 89.515101,190.60595 70,209.91845 l 0,0.21875 0.1875,0 16.25,17.5 16.46875,17.71875 L 119,227.5122 l 15.625,-17.375 0.28125,0 0,-0.28125 0.15625,-0.1875 -0.15625,0 -19.5151,-19.0625 z"
+             id="path4163"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="cccccccccccccc" />
+          <path
+             style="fill:#d7eef4;fill-opacity:1;stroke:none"
+             d="m 91.568634,192.72325 -4.409479,4.36425 22.680555,0 17.20828,16.82386 0.13567,0 -0.13567,0.18091 0,0.24873 -0.24874,0 -13.79377,15.33143 -9.94959,11.01239 0.33919,0.3618 14.20079,-15.76106 13.79376,-15.33142 0.24874,0 0,-0.24874 0.13568,-0.15829 -0.13568,0 -17.23089,-16.82386 -22.838846,0 z"
+             id="path4165"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.39395311,-0.27008505,0.27008505,0.39395311,162.55749,145.19587)"
+           id="g4167">
+          <path
+             sodipodi:nodetypes="cccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4169"
+             d="m 110.29803,332.04284 -19.515105,19.3125 0,0.21875 0.1875,0 16.250005,17.5 16.46875,17.71875 16.09374,-17.84375 15.625,-17.375 0.28125,0 0,-0.28125 0.15625,-0.1875 -0.15625,0 -19.5151,-19.0625 z"
+             style="fill:#87de87;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4171"
+             d="m 112.35156,334.16014 -4.40948,4.36425 22.68055,0 17.20828,16.82386 0.13567,0 -0.13567,0.18091 0,0.24873 -0.24874,0 -13.79377,15.33143 -9.94958,11.01239 0.33919,0.3618 14.20078,-15.76106 13.79377,-15.33142 0.24874,0 0,-0.24874 0.13568,-0.15829 -0.13568,0 -17.2309,-16.82386 -22.83884,0 z"
+             style="fill:#d7f4d7;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,176.42242,157.7238)"
+           id="g4179">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4181"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4183"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,215.59348,131.35866)"
+           id="g4203">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4205"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4207"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,207.1852,143.09109)"
+           id="g4173">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4175"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4177"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4185"
+           transform="matrix(0.45906901,0,0,0.45906901,195.25466,150.94419)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4187"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4189"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4209"
+           transform="matrix(0.45906901,0,0,0.45906901,229.90598,135.50175)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4211"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4213"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4197"
+           transform="matrix(0.45906901,0,0,0.45906901,221.6198,149.06096)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4199"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4201"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,209.94381,159.23037)"
+           id="g4191">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4193"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4195"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,238.94545,149.06096)"
+           id="g4215">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4217"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4219"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4221"
+           transform="matrix(0.45906901,0,0,0.45906901,230.65927,158.10043)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4223"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4225"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,244.21848,130.98201)"
+           id="g4227">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4229"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4231"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4233"
+           transform="matrix(0.45906901,0,0,0.45906901,259.66091,130.98201)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4235"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4237"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4257"
+           transform="matrix(0.45906901,0,0,0.45906901,251.75137,145.29452)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4259"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4261"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,272.84348,135.50175)"
+           id="g4239">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4241"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4243"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4245"
+           transform="matrix(0.45906901,0,0,0.45906901,290.16914,131.35866)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4247"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4249"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,250.62144,158.10044)"
+           id="g4251">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4253"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4255"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,267.1938,156.59386)"
+           id="g4263">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4265"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4267"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4269"
+           transform="matrix(0.45906901,0,0,0.45906901,266.81716,143.41129)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4271"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4273"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,284.51946,147.17774)"
+           id="g4275">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4277"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4279"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4281"
+           transform="matrix(0.45906901,0,0,0.45906901,277.73985,153.95735)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4283"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4285"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,295.06551,141.15143)"
+           id="g4287">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4289"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4291"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,309.75466,141.90472)"
+           id="g4299">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4301"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4303"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4305"
+           transform="matrix(0.45906901,0,0,0.45906901,321.80729,133.61854)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4307"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4309"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4353"
+           transform="matrix(0.45906901,0,0,0.45906901,340.26288,134.74847)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4355"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4357"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,327.45696,146.04782)"
+           id="g4311">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4313"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4315"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4317"
+           transform="matrix(0.45906901,0,0,0.45906901,320.67735,155.08729)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4319"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4321"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,365.49807,145.29452)"
+           id="g4335">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4337"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4339"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4341"
+           transform="matrix(0.45906901,0,0,0.45906901,354.95202,141.52807)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4343"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4345"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,353.82209,131.73531)"
+           id="g4359">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4361"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4363"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4365"
+           transform="matrix(0.45906901,0,0,0.45906901,386.21354,138.13827)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4367"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4369"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4293"
+           transform="matrix(0.45906901,0,0,0.45906901,305.98821,155.84058)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4295"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4297"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           id="g4108"
+           transform="matrix(0.47764525,0,0,0.47764525,273.95129,186.82917)">
+          <path
+             sodipodi:nodetypes="cccccccccccccc"
+             inkscape:connector-curvature="0"
+             id="path4094"
+             d="M 89.515101,190.60595 70,209.91845 l 0,0.21875 0.1875,0 16.25,17.5 16.46875,17.71875 L 119,227.5122 l 15.625,-17.375 0.28125,0 0,-0.28125 0.15625,-0.1875 -0.15625,0 -19.5151,-19.0625 z"
+             style="fill:#afdde9;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4103"
+             d="m 91.568634,192.72325 -4.409479,4.36425 22.680555,0 17.20828,16.82386 0.13567,0 -0.13567,0.18091 0,0.24873 -0.24874,0 -13.79377,15.33143 -9.94959,11.01239 0.33919,0.3618 14.20079,-15.76106 13.79376,-15.33142 0.24874,0 0,-0.24874 0.13568,-0.15829 -0.13568,0 -17.23089,-16.82386 -22.838846,0 z"
+             style="fill:#d7eef4;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,344.40597,142.28136)"
+           id="g4347">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4349"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4351"
+             inkscape:connector-curvature="0" />
+        </g>
+        <g
+           id="g4329"
+           transform="matrix(0.45906901,0,0,0.45906901,353.44544,153.20406)">
+          <path
+             transform="translate(-6.596654,14.29275)"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             sodipodi:ry="21.988846"
+             sodipodi:rx="21.988846"
+             sodipodi:cy="274.95401"
+             sodipodi:cx="81.358734"
+             id="path4331"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             sodipodi:type="arc" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4333"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             style="fill:#ffe680;fill-opacity:1;stroke:none" />
+        </g>
+        <g
+           transform="matrix(0.45906901,0,0,0.45906901,337.62636,158.47709)"
+           id="g4323">
+          <path
+             sodipodi:type="arc"
+             style="fill:#ffcc00;fill-opacity:1;stroke:none"
+             id="path4325"
+             sodipodi:cx="81.358734"
+             sodipodi:cy="274.95401"
+             sodipodi:rx="21.988846"
+             sodipodi:ry="21.988846"
+             d="m 103.34758,274.95401 a 21.988846,21.988846 0 1 1 -43.977692,0 21.988846,21.988846 0 1 1 43.977692,0 z"
+             transform="translate(-6.596654,14.29275)" />
+          <path
+             style="fill:#ffe680;fill-opacity:1;stroke:none"
+             d="m 74.789929,268.89111 c -9.443319,0 -17.383533,6.45436 -19.659474,15.18485 2.852426,-6.83502 9.509323,-11.63402 17.292254,-11.63402 10.377242,0 18.793417,8.53575 18.793417,19.05324 0,7.63351 -4.427892,14.19744 -10.825701,17.23451 8.492477,-2.43301 14.722954,-10.24087 14.722954,-19.51513 0,-11.21863 -9.10481,-20.32345 -20.32345,-20.32345 z"
+             id="path4327"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <rect
+         y="269.57996"
+         x="171.89583"
+         height="82.966049"
+         width="201.84277"
+         id="rect4057"
+         style="fill:#784421;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="csccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4061"
+         d="m 372.98537,269.29521 c 0,0 18.21761,-12.02496 26.00428,-17.46201 10.18188,-7.1095 26.00428,-20.85739 26.00428,-20.85739 l 0,60.78511 -0.48506,21.01054 -25.51922,20.37234 -26.00428,19.40223 0,-60.78511 z"
+         style="fill:#712d00;fill-opacity:1;stroke:none" />
+      <rect
+         y="193.17787"
+         x="172.89738"
+         height="38.319401"
+         width="201.67859"
+         id="rect4067"
+         style="fill:#784421;fill-opacity:1;stroke:none" />
+      <path
+         sodipodi:nodetypes="czccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4071"
+         d="m 172.89738,193.05149 c 15.57729,-15.57729 83.59126,-20.37234 125.62942,-20.37234 42.03816,0 111.02225,4.79505 126.59954,20.37234 0.0267,4.641 0,6.06319 0,6.06319 l 0,6.0632 -126.11448,0 -126.11448,0 0,-6.0632 c 0,0 0.0815,-1.73775 0,-6.06319 z"
+         style="fill:#784421;fill-opacity:1;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4081"
+         d="m 374.08844,177.34438 0,27.84375 51.03125,0 0,-6.0625 c 0,0 0.0228,-1.4215 0,-6.0625 -7.53848,-7.53848 -27.58423,-12.55206 -51.03125,-15.71875 z"
+         style="fill:#712d00;fill-opacity:1;stroke:none" />
+      <rect
+         y="204.42972"
+         x="374.09076"
+         height="27.552605"
+         width="51.035583"
+         id="rect4069"
+         style="fill:#712d00;fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="15.167286"
+       ry="15.167286"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       id="rect4496"
+       width="96.35688"
+       height="96.35688"
+       x="154.03058"
+       y="358.95908" />
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="16.059479"
+       ry="16.059479"
+       y="365.32227"
+       x="160.39374"
+       height="83.630501"
+       width="83.630501"
+       id="rect4498"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:connector-curvature="0"
+       id="path4500"
+       d="m 177.22254,380.81518 c 0,0 2.61073,7.80215 7.36253,15.48858 4.75178,7.68643 9.29578,14.38662 9.29578,14.38662 l 4.6127,-7.686 c 15.79114,1.89513 15.19284,13.01614 13.90177,17.41652 -1.47302,5.02047 -4.44569,12.8601 -14.27797,21.69001 0,0 16.80829,-10.17758 22.48222,-19.03382 9.14361,-14.27191 2.46084,-28.84031 -12.9387,-35.35259 l 4.0402,-6.74823 c 0,0 -6.62395,-1.99955 -15.53623,-2.34253 -8.91227,-0.34299 -18.9423,2.18144 -18.9423,2.18144 z"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline" />
+    <rect
+       y="361.08969"
+       x="361.76645"
+       height="96.35688"
+       width="96.35688"
+       id="rect4633"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       ry="15.167286"
+       rx="15.167286"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       id="rect4635"
+       width="83.630501"
+       height="83.630501"
+       x="368.12964"
+       y="367.45288"
+       ry="16.059479"
+       rx="16.059479"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4639"
+       y="193.15282"
+       x="337.25812"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         y="193.15282"
+         x="337.25812"
+         sodipodi:role="line"
+         style="font-size:20px;font-weight:normal;-inkscape-font-specification:Akashi"
+         id="tspan4649" /></text>
+    <path
+       sodipodi:type="star"
+       style="fill:#ffcc00;fill-opacity:1;stroke:none"
+       id="path4658"
+       sodipodi:sides="5"
+       sodipodi:cx="373.92459"
+       sodipodi:cy="206.21477"
+       sodipodi:r1="45.820812"
+       sodipodi:r2="22.910408"
+       sodipodi:arg1="0.95054684"
+       sodipodi:arg2="1.5788654"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 400.5574,243.5007 -26.81767,-14.37627 -27.04617,13.94163 5.38552,-29.94763 -21.617,-21.41424 30.14611,-4.13239 13.68613,-27.17635 13.24579,27.39367 30.0755,4.61833 -21.95976,21.06261 z"
+       inkscape:transform-center-x="-0.11425167"
+       inkscape:transform-center-y="-4.2666959"
+       transform="translate(-3.1959367,25.567493)" />
+    <path
+       transform="translate(71.375918,4.2612489)"
+       inkscape:transform-center-y="-4.2666959"
+       inkscape:transform-center-x="-0.11425167"
+       d="m 400.5574,243.5007 -26.81767,-14.37627 -27.04617,13.94163 5.38552,-29.94763 -21.617,-21.41424 30.14611,-4.13239 13.68613,-27.17635 13.24579,27.39367 30.0755,4.61833 -21.95976,21.06261 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="1.5788654"
+       sodipodi:arg1="0.95054684"
+       sodipodi:r2="22.910408"
+       sodipodi:r1="45.820812"
+       sodipodi:cy="206.21477"
+       sodipodi:cx="373.92459"
+       sodipodi:sides="5"
+       id="path4660"
+       style="fill:#ffcc00;fill-opacity:1;stroke:none"
+       sodipodi:type="star" />
+    <path
+       sodipodi:type="star"
+       style="fill:#ffcc00;fill-opacity:1;stroke:none"
+       id="path4662"
+       sodipodi:sides="5"
+       sodipodi:cx="373.92459"
+       sodipodi:cy="206.21477"
+       sodipodi:r1="45.820812"
+       sodipodi:r2="22.910408"
+       sodipodi:arg1="0.95054684"
+       sodipodi:arg2="1.5788654"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 400.5574,243.5007 -26.81767,-14.37627 -27.04617,13.94163 5.38552,-29.94763 -21.617,-21.41424 30.14611,-4.13239 13.68613,-27.17635 13.24579,27.39367 30.0755,4.61833 -21.95976,21.06261 z"
+       inkscape:transform-center-x="-0.11425167"
+       inkscape:transform-center-y="-4.2666959"
+       transform="translate(144.88246,25.567493)" />
+    <path
+       style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+       d="m 371.07614,191.28128 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
+       id="path4664"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4669"
+       d="m 519.99808,191.907 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
+       style="fill:#ffeeaa;fill-opacity:1;stroke:none" />
+    <path
+       style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+       d="m 446.16283,170.9453 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
+       id="path4671"
+       inkscape:connector-curvature="0" />
+    <path
+       sodipodi:type="star"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none"
+       id="path4673"
+       sodipodi:sides="3"
+       sodipodi:cx="461.78314"
+       sodipodi:cy="377.38153"
+       sodipodi:r1="71.156494"
+       sodipodi:r2="35.578251"
+       sodipodi:arg1="2.0943951"
+       sodipodi:arg2="3.1415927"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 426.2049,439.00486 -1e-5,-61.62333 0,-61.62333 53.36738,30.81166 53.36737,30.81167 -53.36737,30.81167 z"
+       inkscape:transform-center-x="-6.213259"
+       transform="matrix(0.34927293,0,0,0.34927293,250.26215,277.45898)" />
+    <path
+       transform="matrix(0.34927293,0,0,0.34927293,234.62441,277.45898)"
+       inkscape:transform-center-x="-6.21326"
+       d="m 426.2049,439.00486 -1e-5,-61.62333 0,-61.62333 53.36738,30.81166 53.36737,30.81167 -53.36737,30.81167 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="3.1415927"
+       sodipodi:arg1="2.0943951"
+       sodipodi:r2="35.578251"
+       sodipodi:r1="71.156494"
+       sodipodi:cy="377.38153"
+       sodipodi:cx="461.78314"
+       sodipodi:sides="3"
+       id="path4675"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none"
+       sodipodi:type="star" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="Layer#1"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       id="g4856"
+       transform="matrix(1.4591117,0,0,1.4591117,-317.63239,-151.75064)">
+      <rect
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4736"
+         width="343.28494"
+         height="35.148964"
+         x="246.8546"
+         y="718.64557"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <path
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         d="m 247.05426,679.3114 0,74.46875 90.3125,0 0,-74.46875 -18.84375,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -19.03125,0 z"
+         id="path4738"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <path
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         d="m 499.83551,679.3114 0,74.46875 90.3125,0 0,-74.46875 -19.625,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -18.25,0 z"
+         id="path4740"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <path
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         d="m 265.40291,736.99683 40,0 40,0 0,133.58062 0,133.58065 -40,0 -40,0 c 0,0 5.99999,-69.39172 5.99999,-133.58065 0,-64.18893 -5.99999,-133.58062 -5.99999,-133.58062 z"
+         id="path4742"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccczc"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <path
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         d="m 493.26773,736.99683 40,0 40,0 c 0,0 -8,71.96841 -8,133.58062 0,61.61222 8,133.58065 8,133.58065 l -40,0 -40,0 0,-133.58065 z"
+         id="path4744"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccczccccc"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <path
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         d="m 339.23837,746.03015 0,65.75 c 0,0 32.85426,-51.34375 77.2539,-51.34375 44.39965,0 77.28413,51.34375 77.28413,51.34375 l 0,-65.75 -154.53803,0 z"
+         id="path4746"
+         inkscape:connector-curvature="0"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4748"
+         width="9.1756268"
+         height="255.60677"
+         x="351.49277"
+         y="749.27008"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         y="749.27008"
+         x="369.49277"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4750"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4752"
+         width="9.1756268"
+         height="255.60677"
+         x="387.49277"
+         y="749.27008"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         y="749.27008"
+         x="405.49277"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4754"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4756"
+         width="9.1756268"
+         height="255.60677"
+         x="423.49277"
+         y="749.27008"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         y="749.27008"
+         x="443.4928"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4758"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4760"
+         width="9.1756268"
+         height="255.60677"
+         x="461.49283"
+         y="749.27008"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         y="749.27008"
+         x="477.49283"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4762"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28"
+         transform="translate(0,-572.36218)" />
+      <rect
+         y="-484.4657"
+         x="978.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4764"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4766"
+         width="9.1756268"
+         height="132.3912"
+         x="954.66083"
+         y="-484.4657"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4768"
+         width="9.1756268"
+         height="132.3912"
+         x="928.66083"
+         y="-484.4657"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         y="-484.4657"
+         x="904.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4770"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         y="-484.4657"
+         x="876.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4772"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4774"
+         width="9.1756268"
+         height="132.3912"
+         x="852.66083"
+         y="-484.4657"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4776"
+         width="9.1756268"
+         height="132.3912"
+         x="824.66083"
+         y="-484.4657"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         y="-484.4657"
+         x="800.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4778"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         y="-484.4657"
+         x="776.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4780"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#c8beb7;fill-opacity:1;stroke:none;display:inline"
+         id="path4782"
+         sodipodi:cx="230.70149"
+         sodipodi:cy="413.80441"
+         sodipodi:rx="186.13416"
+         sodipodi:ry="11.141833"
+         d="m 416.83565,413.80441 a 186.13416,11.141833 0 1 1 -372.268313,0 186.13416,11.141833 0 1 1 372.268313,0 z"
+         transform="translate(187.36676,21.23047)"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:61.42534637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="140.37569"
+       y="76.040733"
+       id="text4684"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4686"
+         x="140.37569"
+         y="76.040733">Chain-up!</tspan></text>
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="15.167286"
+       ry="15.167286"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       id="rect4696"
+       width="96.35688"
+       height="96.35688"
+       x="157.35495"
+       y="178.35269" />
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="16.059479"
+       ry="16.059479"
+       y="184.71588"
+       x="163.71814"
+       height="83.630501"
+       width="83.630501"
+       id="rect4698"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    <path
+       transform="matrix(0.43543235,0,0,0.43543235,-3.2878906,62.206998)"
+       inkscape:transform-center-x="-7.7459571"
+       d="m 426.2049,439.00486 -1e-5,-61.62333 0,-61.62333 53.36738,30.81166 53.36737,30.81167 -53.36737,30.81167 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="3.1415927"
+       sodipodi:arg1="2.0943951"
+       sodipodi:r2="35.578251"
+       sodipodi:r1="71.156494"
+       sodipodi:cy="377.38153"
+       sodipodi:cx="461.78314"
+       sodipodi:sides="3"
+       id="path4700"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline"
+       sodipodi:type="star" />
+    <rect
+       y="286.31113"
+       x="33.468224"
+       height="96.35688"
+       width="96.35688"
+       id="rect4708"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       ry="15.167286"
+       rx="15.167286"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <rect
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       id="rect4710"
+       width="83.630501"
+       height="83.630501"
+       x="39.831413"
+       y="292.67432"
+       ry="16.059479"
+       rx="16.059479"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4718"
+       y="214.79167"
+       x="350.79401"
+       style="font-size:59.94441986px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#784421;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         y="214.79167"
+         x="350.79401"
+         id="tspan4720"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1">Created by Vitor Navarro </tspan><tspan
+         y="233.52431"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4722">www.vnavarro.com.br</tspan><tspan
+         y="252.25693"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4724" /><tspan
+         y="270.98956"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4726">Song: XPTO by fdjalkfdsa</tspan><tspan
+         y="289.7222"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4728">www.sitedocara.com</tspan><tspan
+         y="308.45483"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4730" /><tspan
+         y="327.18747"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4732">Music: XPTO by djfksldfak</tspan><tspan
+         y="345.9201"
+         x="350.79401"
+         sodipodi:role="line"
+         style="font-size:14.98610497px;fill:#784421;fill-opacity:1"
+         id="tspan4734">www.sitedocara2.com</tspan></text>
+    <g
+       id="g4888"
+       transform="translate(-7.4630698,115.97904)">
+      <path
+         sodipodi:nodetypes="ccccccccccc"
+         inkscape:connector-curvature="0"
+         id="rect4882"
+         d="m 67.035677,203.8767 19.357709,0 0.327315,-4.06267 24.463089,-9.73339 0,28.42989 0,28.42989 -24.463089,-9.73339 -0.327315,-4.06267 -19.357709,0 0,-14.63383 z"
+         style="fill:#d4aa00;fill-opacity:1;stroke:none" />
+      <rect
+         y="203.95236"
+         x="85.432823"
+         height="29.149309"
+         width="1.0691246"
+         id="rect4885"
+         style="fill:#ffcc00;fill-opacity:1;stroke:none" />
+    </g>
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="15.167286"
+       ry="15.167286"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+       id="rect4892"
+       width="96.35688"
+       height="96.35688"
+       x="-130.09419"
+       y="89.586578" />
+    <rect
+       inkscape:export-ydpi="106.28"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       rx="16.059479"
+       ry="16.059479"
+       y="95.949768"
+       x="-123.731"
+       height="83.630501"
+       width="83.630501"
+       id="rect4894"
+       style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    <g
+       transform="translate(-171.02548,-80.745507)"
+       id="g4896">
+      <path
+         style="fill:#d4aa00;fill-opacity:1;stroke:none"
+         d="m 67.035677,203.8767 19.357709,0 0.327315,-4.06267 24.463089,-9.73339 0,28.42989 0,28.42989 -24.463089,-9.73339 -0.327315,-4.06267 -19.357709,0 0,-14.63383 z"
+         id="path4898"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="ccccccccccc" />
+      <rect
+         style="fill:#ffcc00;fill-opacity:1;stroke:none"
+         id="rect4900"
+         width="1.0691246"
+         height="29.149309"
+         x="85.432823"
+         y="203.95236" />
+    </g>
+    <rect
+       style="fill:#784421;fill-opacity:1;stroke:none"
+       id="rect4902"
+       width="5.6207008"
+       height="95.551926"
+       x="-157.41031"
+       y="-8.4346542"
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)" />
+    <rect
+       transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
+       y="-8.4346552"
+       x="-157.41031"
+       height="95.551926"
+       width="5.6207008"
+       id="rect4904"
+       style="fill:#784421;fill-opacity:1;stroke:none" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Layer#2"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <g
+       style="display:inline"
+       transform="matrix(1.4591117,0,0,1.4591117,-317.63239,-151.75064)"
+       id="g4907">
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="718.64557"
+         x="246.8546"
+         height="35.148964"
+         width="343.28494"
+         id="rect4909"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:connector-curvature="0"
+         id="path4911"
+         d="m 247.05426,679.3114 0,74.46875 90.3125,0 0,-74.46875 -18.84375,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -19.03125,0 z"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:connector-curvature="0"
+         id="path4913"
+         d="m 499.83551,679.3114 0,74.46875 90.3125,0 0,-74.46875 -19.625,0 0,26.09375 -18.375,0 0,-26.09375 -15.71875,0 0,26.09375 -18.34375,0 0,-26.09375 -18.25,0 z"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         sodipodi:nodetypes="ccccccczc"
+         inkscape:connector-curvature="0"
+         id="path4915"
+         d="m 265.40291,736.99683 40,0 40,0 0,133.58062 0,133.58065 -40,0 -40,0 c 0,0 5.99999,-69.39172 5.99999,-133.58065 0,-64.18893 -5.99999,-133.58062 -5.99999,-133.58062 z"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         sodipodi:nodetypes="ccczccccc"
+         inkscape:connector-curvature="0"
+         id="path4917"
+         d="m 493.26773,736.99683 40,0 40,0 c 0,0 -8,71.96841 -8,133.58062 0,61.61222 8,133.58065 8,133.58065 l -40,0 -40,0 0,-133.58065 z"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <path
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         inkscape:connector-curvature="0"
+         id="path4919"
+         d="m 339.23837,746.03015 0,65.75 c 0,0 32.85426,-51.34375 77.2539,-51.34375 44.39965,0 77.28413,51.34375 77.28413,51.34375 l 0,-65.75 -154.53803,0 z"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="749.27008"
+         x="351.49277"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4921"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4923"
+         width="9.1756268"
+         height="255.60677"
+         x="369.49277"
+         y="749.27008" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="749.27008"
+         x="387.49277"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4925"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4927"
+         width="9.1756268"
+         height="255.60677"
+         x="405.49277"
+         y="749.27008" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="749.27008"
+         x="423.49277"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4929"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4931"
+         width="9.1756268"
+         height="255.60677"
+         x="443.4928"
+         y="749.27008" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="749.27008"
+         x="461.49283"
+         height="255.60677"
+         width="9.1756268"
+         id="rect4933"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline" />
+      <rect
+         transform="translate(0,-572.36218)"
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4935"
+         width="9.1756268"
+         height="255.60677"
+         x="477.49283"
+         y="749.27008" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4937"
+         width="9.1756268"
+         height="132.3912"
+         x="978.66083"
+         y="-484.4657" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="-484.4657"
+         x="954.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4939"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="-484.4657"
+         x="928.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4941"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4943"
+         width="9.1756268"
+         height="132.3912"
+         x="904.66083"
+         y="-484.4657" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4945"
+         width="9.1756268"
+         height="132.3912"
+         x="876.66083"
+         y="-484.4657" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="-484.4657"
+         x="852.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4947"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         y="-484.4657"
+         x="824.66083"
+         height="132.3912"
+         width="9.1756268"
+         id="rect4949"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         transform="matrix(0,1,-1,0,0,-572.36218)" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4951"
+         width="9.1756268"
+         height="132.3912"
+         x="800.66083"
+         y="-484.4657" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="matrix(0,1,-1,0,0,-572.36218)"
+         style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
+         id="rect4953"
+         width="9.1756268"
+         height="132.3912"
+         x="776.66083"
+         y="-484.4657" />
+      <path
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/boardBg.png"
+         transform="translate(187.36676,21.23047)"
+         d="m 416.83565,413.80441 a 186.13416,11.141833 0 1 1 -372.268313,0 186.13416,11.141833 0 1 1 372.268313,0 z"
+         sodipodi:ry="11.141833"
+         sodipodi:rx="186.13416"
+         sodipodi:cy="413.80441"
+         sodipodi:cx="230.70149"
+         id="path4955"
+         style="fill:#c8beb7;fill-opacity:1;stroke:none;display:inline"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="165.24861"
+       y="88.799187"
+       id="text4982"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4984"
+         x="165.24861"
+         y="88.799187"
+         style="font-size:32px;fill:#784421">Level Selection</tspan></text>
+    <g
+       id="g5091"
+       transform="translate(4.4242461,0)">
+      <rect
+         y="125.45115"
+         x="90.799377"
+         height="89.827888"
+         width="89.827888"
+         id="rect4988"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect4990"
+         width="77.963829"
+         height="77.963829"
+         x="96.731407"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5047"
+       y="187.94322"
+       x="134.30164"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="187.94322"
+         x="134.30164"
+         id="tspan5049"
+         sodipodi:role="line">1</tspan></text>
+    <g
+       id="g5087"
+       transform="translate(2.5747741,0)">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5055"
+         width="89.827888"
+         height="89.827888"
+         x="195.34442"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="201.27646"
+         height="77.963829"
+         width="77.963829"
+         id="rect5057"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="226.99721"
+       y="187.94322"
+       id="text5059"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5061"
+         x="226.99721"
+         y="187.94322"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">2</tspan></text>
+    <g
+       id="g5083"
+       transform="translate(-7.1436706,0)">
+      <rect
+         y="125.45115"
+         x="307.75845"
+         height="89.827888"
+         width="89.827888"
+         id="rect5063"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5065"
+         width="77.963829"
+         height="77.963829"
+         x="313.69049"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5067"
+       y="187.94322"
+       x="333.80997"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="187.94322"
+         x="333.80997"
+         id="tspan5069"
+         sodipodi:role="line">3</tspan></text>
+    <g
+       id="g5079"
+       transform="translate(-7.8689819,0)">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5071"
+         width="89.827888"
+         height="89.827888"
+         x="411.17935"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="417.11139"
+         height="77.963829"
+         width="77.963829"
+         id="rect5073"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="442.38837"
+       y="187.94322"
+       id="text5075"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5077"
+         x="442.38837"
+         y="187.94322"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">1</tspan></text>
+    <g
+       transform="translate(4.4242461,124.77957)"
+       id="g5095">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5097"
+         width="89.827888"
+         height="89.827888"
+         x="90.799377"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="96.731407"
+         height="77.963829"
+         width="77.963829"
+         id="rect5099"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="134.30164"
+       y="312.72278"
+       id="text5101"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5103"
+         x="134.30164"
+         y="312.72278"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">1</tspan></text>
+    <g
+       transform="translate(2.5747741,124.77957)"
+       id="g5105">
+      <rect
+         y="125.45115"
+         x="195.34442"
+         height="89.827888"
+         width="89.827888"
+         id="rect5107"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5109"
+         width="77.963829"
+         height="77.963829"
+         x="201.27646"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5111"
+       y="312.72278"
+       x="236.99721"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="312.72278"
+         x="236.99721"
+         id="tspan5113"
+         sodipodi:role="line">1</tspan></text>
+    <g
+       transform="translate(-7.1436706,124.77957)"
+       id="g5115">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5117"
+         width="89.827888"
+         height="89.827888"
+         x="307.75845"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="313.69049"
+         height="77.963829"
+         width="77.963829"
+         id="rect5119"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="339.69278"
+       y="312.72278"
+       id="text5121"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5123"
+         x="339.69278"
+         y="312.72278"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">1</tspan></text>
+    <g
+       transform="translate(-7.8689819,124.77957)"
+       id="g5125">
+      <rect
+         y="125.45115"
+         x="411.17935"
+         height="89.827888"
+         width="89.827888"
+         id="rect5127"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5129"
+         width="77.963829"
+         height="77.963829"
+         x="417.11139"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5131"
+       y="312.72278"
+       x="442.38837"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="312.72278"
+         x="442.38837"
+         id="tspan5133"
+         sodipodi:role="line">1</tspan></text>
+    <g
+       id="g5135"
+       transform="translate(4.4242461,247.31086)">
+      <rect
+         y="125.45115"
+         x="90.799377"
+         height="89.827888"
+         width="89.827888"
+         id="rect5137"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5139"
+         width="77.963829"
+         height="77.963829"
+         x="96.731407"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5141"
+       y="435.25409"
+       x="134.30164"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="435.25409"
+         x="134.30164"
+         id="tspan5143"
+         sodipodi:role="line">1</tspan></text>
+    <g
+       id="g5145"
+       transform="translate(2.5747741,247.31086)">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5147"
+         width="89.827888"
+         height="89.827888"
+         x="195.34442"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="201.27646"
+         height="77.963829"
+         width="77.963829"
+         id="rect5149"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="236.99721"
+       y="435.25409"
+       id="text5151"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5153"
+         x="236.99721"
+         y="435.25409"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">1</tspan></text>
+    <g
+       id="g5155"
+       transform="translate(-7.1436706,247.31086)">
+      <rect
+         y="125.45115"
+         x="307.75845"
+         height="89.827888"
+         width="89.827888"
+         id="rect5157"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         ry="15.167286"
+         rx="15.167286"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+      <rect
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5159"
+         width="77.963829"
+         height="77.963829"
+         x="313.69049"
+         y="131.38318"
+         ry="16.059479"
+         rx="16.059479"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-ydpi="106.28" />
+    </g>
+    <text
+       sodipodi:linespacing="125%"
+       id="text5161"
+       y="435.25409"
+       x="339.69278"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       xml:space="preserve"><tspan
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1"
+         y="435.25409"
+         x="339.69278"
+         id="tspan5163"
+         sodipodi:role="line">1</tspan></text>
+    <g
+       id="g5165"
+       transform="translate(-7.8689819,247.31086)">
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="15.167286"
+         ry="15.167286"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
+         id="rect5167"
+         width="89.827888"
+         height="89.827888"
+         x="411.17935"
+         y="125.45115" />
+      <rect
+         inkscape:export-ydpi="106.28"
+         inkscape:export-xdpi="106.28"
+         inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+         rx="16.059479"
+         ry="16.059479"
+         y="131.38318"
+         x="417.11139"
+         height="77.963829"
+         width="77.963829"
+         id="rect5169"
+         style="fill:#784421;fill-opacity:1;stroke:none;display:inline" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#c8b7b7;fill-opacity:1;stroke:none;font-family:Akashi;-inkscape-font-specification:Akashi"
+       x="442.38837"
+       y="435.25409"
+       id="text5171"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5173"
+         x="442.38837"
+         y="435.25409"
+         style="font-size:48px;fill:#c8b7b7;fill-opacity:1">1</tspan></text>
+  </g>
+</svg>
