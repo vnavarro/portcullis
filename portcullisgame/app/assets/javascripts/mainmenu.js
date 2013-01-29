@@ -1,12 +1,12 @@
 (function(){
-	var MainMenu = function(on_play) {
-      this.initialize(on_play);
+	var MainMenu = function() {
+      this.initialize();
     }
 
     var p = MainMenu.prototype = new createjs.Container();
      
     p.Container_initialize = p.initialize;
-    p.initialize = function(on_play) {	
+    p.initialize = function() {	
         this.Container_initialize();
 
         this.bg = new createjs.Bitmap("assets/bgBig.png");
@@ -29,14 +29,13 @@
 
 		this.addChild(this.credits);
 
-		this.onPlayClick = on_play;
         this.btn_play = new createjs.Bitmap("assets/btnPlay.png");
 		this.btn_play.x = 150;
 		this.btn_play.y = 180;
 		this.btn_play.parent = this;
 		this.btn_play.onClick = function (event){
 			console.log("play!");
-			if(this.parent.onPlayClick) this.parent.onPlayClick();
+			loadLevelSelection();
 		};
 
 		this.addChild(this.btn_play);        

@@ -33,6 +33,16 @@
 			var new_btn = this.createLevelButton(game_data[i].code,ini_x,ini_y);			
 			this.addChild(new_btn);			
 		};		
+
+		this.btn_back = new createjs.Bitmap("assets/btnBack.png");
+		this.btn_back.x = 545;
+		this.btn_back.y = 380;
+		this.btn_back.level = this;
+		this.btn_back.onClick = function (event){
+			console.log("Back clickado");
+			loadMenu();
+		};
+		this.addChild(this.btn_back);
     }
 
     LevelSelection.prototype.createLevelButton = function(level_code,x,y) {    	

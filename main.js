@@ -38,20 +38,18 @@ function tick(){
 }
 
 function unloadCurrentScreen(){
-	stage_screen.unload();
+	if(stage_screen && stage_screen.unload) stage_screen.unload();
 	stage.removeAllChildren();
 }
 
 function loadMenu(){
-	var on_play = function(){
-		unloadCurrentScreen();
-		loadLevelSelection();		
-	};
-	stage_screen  = new MainMenu(on_play);
+	unloadCurrentScreen();
+	stage_screen  = new MainMenu();
 	stage.addChild(stage_screen);
 }
 
 function loadLevelSelection(){	
+	unloadCurrentScreen();
 	stage_screen = new LevelSelection();
 	stage.addChild(stage_screen);
 }
@@ -60,4 +58,10 @@ function loadLevel(level_code){
 	unloadCurrentScreen();
 	stage_screen = new Level(level_code);
 	stage_screen.addBoardOnStage(stage);
+}
+
+function loadEndGame(remaining_time,time_limit,completed,level_id){
+	unloadCurrentScreen();
+	stage_screen = new EndGameScreen(remaining_time,time_limit,completed,level_id);
+	stage.addChild(stage_screen);
 }

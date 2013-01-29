@@ -51,7 +51,8 @@ function Level(level_id){
 	this.btn_back.level = this;
 	this.btn_back.onClick = function (event){
 		console.log("Back clickado");
-	}
+		loadLevelSelection();
+	};
 
 	this.btn_pause = new createjs.Bitmap("assets/btnPause.png");
 	this.btn_pause.x = 510;
@@ -70,7 +71,7 @@ function Level(level_id){
 		else{
 			this.level.current_game_state = GameStatesEnum.PLAYING;
 		}
-	}
+	};
 
 	this.bg = new createjs.Bitmap("assets/boardBg.png");
 	this.bg.x = 15;
@@ -163,6 +164,7 @@ Level.prototype.update = function(){
 	this.updateConnections();
 	if(this.isLevelCompleted()){
 		this.current_game_state = GameStatesEnum.ENDED;
+		this.callLoadEndGame(true);
 	}
 	
 	this.time_since_last_update += createjs.Ticker.getTime(false)/1000;
@@ -174,8 +176,12 @@ Level.prototype.update = function(){
 	}
 	if (this.time_consumed >= this.time_limit*(createjs.Ticker.getFPS()))
 	{
-		this.current_game_state = GameStatesEnum.ENDED;		
-	    this.time_consumed = 0;
+		this.current_game_state = GameStatesEnum.ENDED;			    
+	    this.callLoadEndGame(false);
 	}
-	else this.clock.text = "Remaining Time:"+Math.floor(60-(this.time_consumed/60));
+	else this.clock.text = "Remaining Time:"+Math.floor(this.time_limit-(this.time_consumed/this.time_limit));
+};
+
+Level.prototype.callLoadEndGame = function(completed){
+	loadEndGame(Math.floor(this.time_limit-(this.time_consumed/this.time_limit)),this.time_limit,completed,this.level_id);
 };
