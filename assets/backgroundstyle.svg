@@ -28,10 +28,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.8895687"
-     inkscape:cx="240.93584"
-     inkscape:cy="256.70288"
+     inkscape:cx="285.90145"
+     inkscape:cy="253.666"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer3"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
@@ -57,7 +57,7 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-572.36218)"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <rect
        style="fill:#c8b7b7;fill-opacity:1;stroke:none"
@@ -339,14 +339,14 @@
        height="96.35688"
        width="96.35688"
        id="rect3250"
-       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       style="fill:#784421;fill-opacity:1;stroke:none"
        ry="15.167286"
        rx="15.167286"
        inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
        inkscape:export-xdpi="106.28"
        inkscape:export-ydpi="106.28" />
     <rect
-       style="fill:#c8beb7;fill-opacity:1;stroke:none"
+       style="fill:#784421;fill-opacity:1;stroke:none"
        id="rect3246"
        width="83.630501"
        height="83.630501"
@@ -358,7 +358,7 @@
        inkscape:export-xdpi="106.28"
        inkscape:export-ydpi="106.28" />
     <path
-       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none"
        d="m 492.55496,163.49149 c 0,0 2.61073,7.80215 7.36253,15.48858 4.75178,7.68643 9.29578,14.38662 9.29578,14.38662 l 4.6127,-7.686 c 15.79114,1.89513 15.19284,13.01614 13.90177,17.41652 -1.47302,5.02047 -4.44569,12.8601 -14.27797,21.69001 0,0 16.80829,-10.17758 22.48222,-19.03382 9.14361,-14.27191 2.46084,-28.84031 -12.9387,-35.35259 l 4.0402,-6.74823 c 0,0 -6.62395,-1.99955 -15.53623,-2.34253 -8.91227,-0.34299 -18.9423,2.18144 -18.9423,2.18144 z"
        id="path3252"
        inkscape:connector-curvature="0"
@@ -367,7 +367,7 @@
        inkscape:export-ydpi="106.28" />
     <rect
        ry="15.167286"
-       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       style="fill:#784421;fill-opacity:1;stroke:none"
        id="rect4031"
        width="96.35688"
        height="96.35688"
@@ -384,13 +384,13 @@
        height="83.630501"
        width="83.630501"
        id="rect4033"
-       style="fill:#c8beb7;fill-opacity:1;stroke:none"
+       style="fill:#784421;fill-opacity:1;stroke:none"
        rx="16.059479"
        inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
        inkscape:export-xdpi="106.28"
        inkscape:export-ydpi="106.28" />
     <rect
-       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none"
        id="rect4035"
        width="19.812788"
        height="59.438362"
@@ -409,7 +409,7 @@
        height="59.438362"
        width="19.812788"
        id="rect4037"
-       style="fill:#917c6f;fill-opacity:1;stroke:none"
+       style="fill:#d4aa00;fill-opacity:1;stroke:none"
        inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPause.png"
        inkscape:export-xdpi="106.28"
        inkscape:export-ydpi="106.28" />
@@ -418,12 +418,11 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer"
-     style="display:none"
-     sodipodi:insensitive="true">
+     style="display:inline">
     <rect
-       inkscape:export-ydpi="106.28"
-       inkscape:export-xdpi="106.28"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-ydpi="96.139999"
+       inkscape:export-xdpi="96.139999"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/bgEndGame.png"
        rx="15.167286"
        ry="15.167286"
        style="fill:#806600;fill-opacity:1;stroke:none;display:inline"
@@ -433,9 +432,9 @@
        x="1.2858951"
        y="2.3260632" />
     <rect
-       inkscape:export-ydpi="106.28"
-       inkscape:export-xdpi="106.28"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-ydpi="96.139999"
+       inkscape:export-xdpi="96.139999"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/bgEndGame.png"
        rx="16.059479"
        ry="16.059479"
        y="19.151867"
@@ -468,7 +467,10 @@
          y="127.08472">The treasures are yours!</tspan></text>
     <g
        id="g4505"
-       transform="translate(-123.57622,-17.044996)">
+       transform="translate(-123.57622,-17.044996)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/chest.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28">
       <rect
          style="fill:#552200;fill-opacity:1;stroke:none"
          id="rect4059"
@@ -1291,9 +1293,9 @@
        style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
        ry="15.167286"
        rx="15.167286"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
-       inkscape:export-xdpi="106.28"
-       inkscape:export-ydpi="106.28" />
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnContinue.png"
+       inkscape:export-xdpi="84.0625"
+       inkscape:export-ydpi="84.0625" />
     <rect
        style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
        id="rect4635"
@@ -1303,9 +1305,9 @@
        y="367.45288"
        ry="16.059479"
        rx="16.059479"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
-       inkscape:export-xdpi="106.28"
-       inkscape:export-ydpi="106.28" />
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnContinue.png"
+       inkscape:export-xdpi="84.0625"
+       inkscape:export-ydpi="84.0625" />
     <text
        sodipodi:linespacing="125%"
        id="text4639"
@@ -1371,7 +1373,10 @@
        d="m 400.5574,243.5007 -26.81767,-14.37627 -27.04617,13.94163 5.38552,-29.94763 -21.617,-21.41424 30.14611,-4.13239 13.68613,-27.17635 13.24579,27.39367 30.0755,4.61833 -21.95976,21.06261 z"
        inkscape:transform-center-x="-0.11425167"
        inkscape:transform-center-y="-4.2666959"
-       transform="translate(144.88246,25.567493)" />
+       transform="translate(144.88246,25.567493)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/star.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
     <path
        style="fill:#ffeeaa;fill-opacity:1;stroke:none"
        d="m 371.07614,191.28128 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
@@ -1381,7 +1386,10 @@
        inkscape:connector-curvature="0"
        id="path4669"
        d="m 519.99808,191.907 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
-       style="fill:#ffeeaa;fill-opacity:1;stroke:none" />
+       style="fill:#ffeeaa;fill-opacity:1;stroke:none"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/star.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
     <path
        style="fill:#ffeeaa;fill-opacity:1;stroke:none"
        d="m 446.16283,170.9453 -1.84822,3.69645 11.1578,23.09141 24.41483,3.74209 3.30856,-3.17165 -25.71544,-3.94744 -11.31753,-23.41086 z m -13.57647,23.47931 -23.89003,3.26292 2.55557,2.55557 19.78286,-2.7153 1.5516,-3.10319 z m 32.2869,24.64301 -2.05358,1.96231 3.19446,19.55469 2.60121,1.39187 -3.74209,-22.90887 z"
@@ -1403,7 +1411,10 @@
        inkscape:randomized="0"
        d="m 426.2049,439.00486 -1e-5,-61.62333 0,-61.62333 53.36738,30.81166 53.36737,30.81167 -53.36737,30.81167 z"
        inkscape:transform-center-x="-6.213259"
-       transform="matrix(0.34927293,0,0,0.34927293,250.26215,277.45898)" />
+       transform="matrix(0.34927293,0,0,0.34927293,250.26215,277.45898)"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnContinue.png"
+       inkscape:export-xdpi="84.0625"
+       inkscape:export-ydpi="84.0625" />
     <path
        transform="matrix(0.34927293,0,0,0.34927293,234.62441,277.45898)"
        inkscape:transform-center-x="-6.21326"
@@ -1420,7 +1431,10 @@
        sodipodi:sides="3"
        id="path4675"
        style="fill:#d4aa00;fill-opacity:1;stroke:none"
-       sodipodi:type="star" />
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnContinue.png"
+       inkscape:export-xdpi="84.0625"
+       inkscape:export-ydpi="84.0625" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -1430,7 +1444,8 @@
      sodipodi:insensitive="true">
     <g
        id="g4856"
-       transform="matrix(1.4591117,0,0,1.4591117,-317.63239,-151.75064)">
+       transform="matrix(1.4591117,0,0,1.4591117,-317.63239,-151.75064)"
+       style="opacity:0">
       <rect
          style="fill:#c8b7b7;fill-opacity:1;stroke:none;display:inline"
          id="rect4736"
@@ -1692,7 +1707,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:61.42534637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d4aa00;fill-opacity:1;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
+       style="font-size:61.42534637px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d4a00f;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-opacity:1;font-family:Akashi;-inkscape-font-specification:Akashi"
        x="140.37569"
        y="76.040733"
        id="text4684"
@@ -1704,7 +1719,7 @@
     <rect
        inkscape:export-ydpi="106.28"
        inkscape:export-xdpi="106.28"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPlay.png"
        rx="15.167286"
        ry="15.167286"
        style="fill:#784421;fill-opacity:1;stroke:none;display:inline"
@@ -1716,7 +1731,7 @@
     <rect
        inkscape:export-ydpi="106.28"
        inkscape:export-xdpi="106.28"
-       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnBack.png"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPlay.png"
        rx="16.059479"
        ry="16.059479"
        y="184.71588"
@@ -1741,7 +1756,10 @@
        sodipodi:sides="3"
        id="path4700"
        style="fill:#d4aa00;fill-opacity:1;stroke:none;display:inline"
-       sodipodi:type="star" />
+       sodipodi:type="star"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/btnPlay.png"
+       inkscape:export-xdpi="106.28"
+       inkscape:export-ydpi="106.28" />
     <rect
        y="286.31113"
        x="33.468224"
@@ -1897,7 +1915,10 @@
     <g
        style="display:inline"
        transform="matrix(1.4591117,0,0,1.4591117,-317.63239,-151.75064)"
-       id="g4907">
+       id="g4907"
+       inkscape:export-filename="/Users/vnavarro/Workspace/GameDevelopment/Portcullis/assets/bgBig.png"
+       inkscape:export-xdpi="106.04198"
+       inkscape:export-ydpi="106.04198">
       <rect
          transform="translate(0,-572.36218)"
          inkscape:export-ydpi="106.28"
