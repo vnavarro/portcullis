@@ -35,6 +35,7 @@
 		this.btn_play.parent = this;
 		this.btn_play.onClick = function (event){
 			console.log("play!");
+			createjs.SoundJS.play("play", createjs.SoundJS.INTERRUPT_NONE);
 			loadLevelSelection();
 		};
 
