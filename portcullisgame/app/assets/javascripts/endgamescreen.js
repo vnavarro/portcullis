@@ -39,6 +39,7 @@
 		this.btn_back.y = 350;
 		this.btn_back.onClick = function (event){
 			console.log("Back clickado");
+            createjs.SoundJS.play("button", createjs.SoundJS.INTERRUPT_NONE);
 			loadLevelSelection();
 		};
 		this.addChild(this.btn_back);
@@ -48,6 +49,7 @@
             this.btn_continue.x = 320-160-45;
             this.btn_continue.y = 350;
             this.btn_continue.onClick = function (event){
+                createjs.SoundJS.play("play", createjs.SoundJS.INTERRUPT_NONE);
                 if(this.parent.hasMoreLevels(this.parent.next_level)) loadLevel(this.parent.next_level);
                 else loadMenu();
             };

@@ -12,11 +12,26 @@
 <script src="/assets/mainmenu.js"></script>
 <script src="/assets/levelselection.js"></script>
 <script src="/assets/endgamescreen.js"></script>
+<style type="text/css">
+	body{
+		background-color:#f8f8eb;
+	}
+	.footer{
+		padding-top: 25px;
+		text-align: center;
+		font-family: MedievalSharp;
+		font-size: 9pt;		
+	}
+</style>
 </head>
 <body onLoad="init();">
-  <div style="margin: 0 auto;width: 640px;background-color: lightgray;">
+  <div style="margin: 0 auto;width: 640px">
 	    <canvas id="canvas" width="640" height="480">        
 	    </canvas>
+	</div>
+	<div class="footer">
+		<p>Chain-up! is a <a href="www.vnavarro">Vitor Navarro</a> game for <a href="onegameamonth.com">OneGameAMonth</a> with Portcullis as the jan/2013 theme</p>
+		<p>Powered by <a href="http://www.createjs.com/#!/CreateJS">CreateJS</a></p>
 	</div>
 </body>
 </html>

@@ -40,6 +40,7 @@
 		this.btn_back.level = this;
 		this.btn_back.onClick = function (event){
 			console.log("Back clickado");
+            createjs.SoundJS.play("button", createjs.SoundJS.INTERRUPT_NONE);
 			loadMenu();
 		};
 		this.addChild(this.btn_back);
@@ -52,6 +53,7 @@
     	btn.level_code = level_code;
     	btn.onClick = function(event){
     		this.parent.openLevel(this.level_code);
+            createjs.SoundJS.play("play", createjs.SoundJS.INTERRUPT_NONE);
     	};
 
     	var bg = new createjs.Bitmap("assets/cleanBtnBg.png");        

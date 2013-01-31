@@ -13,7 +13,7 @@ function init(){
 	// create a new stage and point it at our canvas:
 	stage = new createjs.Stage(canvas);
 
-	var messageField = new createjs.Text("Loading...", "bold 42px MedievalSharp", "#000000");
+	var messageField = new createjs.Text("Loading...", "42px Arial", "#784421");
 	messageField.maxWidth = 1000;
 	messageField.textAlign = "center";
 	messageField.x = canvas.width / 2;
@@ -21,16 +21,17 @@ function init(){
 	stage.addChild(messageField);
 	stage.update();
 
+
 	createjs.SoundJS.registerPlugins([createjs.HTMLAudioPlugin, createjs.FlashPlugin]);
 	createjs.SoundJS.checkPlugin(true);	
-	createjs.SoundJS.stop();
 
 	var manifest = [
-		//{id:"play", src:"/assets/snd_sword_atk.mp3",data:6},
-		//{id:"ingame", src:"/assets/kumasigroove.mp3",data:6},
-		{id:"ingame", src:"/assets/kumasigroove.mp3",data:6}
-		//{id:"endgame", src:"/assets/Danse Macabre - Finale.mp3",data:6},
-		//{id:"menu", src:"/assets/Darkest Child.mp3",data:6}		
+		{id:"play", src:"assets/button1.ogg"},
+		{id:"button", src:"assets/button2.ogg"},
+		{id:"ingame", src:"assets/earthprelude.ogg"},
+		{id:"ingame2", src:"assets/kumasigroove.ogg"},
+		{id:"gameover", src:"assets/herosendi.ogg"},
+		{id:"win", src:"assets/end_level.ogg"}		
 	];
 
 	preload = new createjs.PreloadJS();
@@ -40,15 +41,21 @@ function init(){
 }
 
 function doneLoading(){
-	stage.removeAllChildren();
-	current_music_handle = createjs.SoundJS.play("ingame", createjs.SoundJS.INTERRUPT_ANY, 0, 1, -1, 1);
+	current_music_handle = createjs.SoundJS.play("ingame", createjs.SoundJS.INTERRUPT_ANY, 0, 0, -1, 1);
+	var retry = 0
+	while(current_music_handle.playState == null && retry < 1000){ 
+		current_music_handle.stop();
+		current_music_handle = createjs.SoundJS.play("ingame", createjs.SoundJS.INTERRUPT_ANY, 0, 0, -1, 1);
+		retry++;
+	}
 	/*var snd = new Audio('');
 	if(snd.canPlayType('audio/mp3')) {
         snd = new Audio("/assets/kumasigroove.mp3");
     }
        
 	snd.play();*/
-	startGame();
+	//stage.removeAllChildren();
+	setTimeout(startGame,3500);
 }
 
 function startGame() {	
@@ -78,25 +85,42 @@ function unloadCurrentScreen(){
 }
 
 function loadMenu(){
+	if(current_music_handle.src != "assets/earthprelude.ogg"){
+		current_music_handle.stop();
+		current_music_handle = createjs.SoundJS.play("ingame", createjs.SoundJS.INTERRUPT_NONE, 0, 0, -1, 0.8);
+	}
 	unloadCurrentScreen();
 	stage_screen  = new MainMenu();
 	stage.addChild(stage_screen);
 }
 
 function loadLevelSelection(){	
+	if(current_music_handle.src != "assets/earthprelude.ogg"){
+		current_music_handle.stop();
+		current_music_handle = createjs.SoundJS.play("ingame", createjs.SoundJS.INTERRUPT_NONE, 0, 0, -1, 0.8);
+	}
 	unloadCurrentScreen();
 	stage_screen = new LevelSelection();
 	stage.addChild(stage_screen);
 }
 
 function loadLevel(level_code){
+	current_music_handle.stop();
+	current_music_handle = createjs.SoundJS.play("ingame2", createjs.SoundJS.INTERRUPT_ANY, 0, 0, -1, 0.8);
 	unloadCurrentScreen();
 	stage_screen = new Level(level_code);
 	stage_screen.addBoardOnStage(stage);
 }
 
 function loadEndGame(remaining_time,time_limit,completed,level_id){
-	unloadCurrentScreen();
-	stage_screen = new EndGameScreen(remaining_time,time_limit,completed,level_id);
-	stage.addChild(stage_screen);
+	setTimeout(function() {
+		current_music_handle.stop();
+		if(completed)
+			current_music_handle = createjs.SoundJS.play("win", createjs.SoundJS.INTERRUPT_ANY, 0, 0, 0, 0.4);
+		else
+			current_music_handle = createjs.SoundJS.play("gameover", createjs.SoundJS.INTERRUPT_ANY, 0, 0, 0, 0.4);
+		unloadCurrentScreen();
+		stage_screen = new EndGameScreen(remaining_time,time_limit,completed,level_id);
+		stage.addChild(stage_screen);
+	}, 2000);
 }

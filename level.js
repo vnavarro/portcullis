@@ -41,9 +41,13 @@ function Level(level_id){
 		this.blocks.push(col_blocks);	
 	};	
 
-	this.clock = new createjs.Text("Remaining Time:0","32px MedievalSharp");
+	this.title = new createjs.Text(game_data.name,"32px MedievalSharp");
+	this.title.x = 320-this.title.getMeasuredWidth()/2;
+	this.title.y = 0;	
+
+	this.clock = new createjs.Text("Remaining Time:0","24px MedievalSharp");
 	this.clock.x = 90;
-	this.clock.y = 25;
+	this.clock.y = 40;
 
 	this.btn_back = new createjs.Bitmap("assets/btnBack.png");
 	this.btn_back.x = 510;
@@ -51,10 +55,12 @@ function Level(level_id){
 	this.btn_back.level = this;
 	this.btn_back.onClick = function (event){
 		console.log("Back clickado");
+		if(this.level.current_game_state != GameStatesEnum.PLAYING) return;
+		createjs.SoundJS.play("button", createjs.SoundJS.INTERRUPT_NONE);		
 		loadLevelSelection();
 	};
 
-	this.btn_pause = new createjs.Bitmap("assets/btnPause.png");
+	/*this.btn_pause = new createjs.Bitmap("assets/btnPause.png");
 	this.btn_pause.x = 510;
 	this.btn_pause.y = 245;
 	this.btn_pause.level = this;
@@ -71,7 +77,8 @@ function Level(level_id){
 		else{
 			this.level.current_game_state = GameStatesEnum.PLAYING;
 		}
-	};
+		createjs.SoundJS.play("button", createjs.SoundJS.INTERRUPT_NONE);
+	};*/
 
 	this.bg = new createjs.Bitmap("assets/boardBg.png");
 	this.bg.x = 15;
@@ -96,6 +103,7 @@ Level.prototype.addBoardOnStage = function(stage) {
 		};
 	};		
 	this.current_game_state = GameStatesEnum.PLAYING;
+	stage.addChild(this.title);
 	stage.addChild(this.clock);
 	stage.addChild(this.btn_back);
 	stage.addChild(this.btn_pause);
@@ -129,7 +137,7 @@ Level.prototype.checkChainConnections = function(x,y,fromDirection) {
 			return;
 		}
 
-	    if (chain.hasConnector(fromDirection) && !chain.is_connected)
+	    if (chain.hasConnector(fromDirection) )//&& !chain.is_connected)
 	    {    		        
 	        chain.changeConnected(true);
 	        var next_directions = chain.getOtherEnds(fromDirection);	        

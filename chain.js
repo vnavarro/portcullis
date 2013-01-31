@@ -186,10 +186,12 @@ window.OrientationEnum = {
                     this.orientation.output.indexOf(OrientationEnum.UP) != -1
             case OrientationEnum.RIGHT:
                 return this.orientation.input.indexOf(OrientationEnum.LEFT) != -1 || 
-                        (this.orientation.output.indexOf(OrientationEnum.LEFT) != -1 && this.bmp.rotation == 270);
+                        (this.orientation.output.indexOf(OrientationEnum.LEFT) != -1 && this.bmp.rotation == 270) ||
+                        (this.orientation.output.indexOf(OrientationEnum.LEFT) != -1 && (this.bmp.rotation == 270 || this.bmp.rotation == 90));
             case OrientationEnum.LEFT:
                 return this.orientation.input.indexOf(OrientationEnum.RIGHT) != -1 || 
-                        (this.orientation.output.indexOf(OrientationEnum.RIGHT) != -1 && this.bmp.rotation == 0);
+                        (this.orientation.output.indexOf(OrientationEnum.RIGHT) != -1 && this.bmp.rotation == 0) ||
+                         (this.orientation.output.indexOf(OrientationEnum.RIGHT) != -1 && (this.bmp.rotation == 270 || this.bmp.rotation == 90));
             case OrientationEnum.UP:
                 return this.orientation.input.indexOf(OrientationEnum.DOWN) != -1 || 
                         this.orientation.output.indexOf(OrientationEnum.DOWN) != -1;
